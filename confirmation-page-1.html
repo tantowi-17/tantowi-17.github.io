@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="full-screen-mobile no-js" lang="en">
+<head>
+    <title>Admin | Confirmation Page</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.18838">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+
+    <link rel="shortcut icon" href="images/favicon/favicon.svg" type="image/x-icon">
+
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+    <!--end::Fonts-->
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="kt_app_body" class="app-blank app-blank app-blank bgi-size-cover bgi-position-center bgi-no-repeat" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true">
+
+<!-- begin::Theme mode setup on page load -->
+<script>
+    var defaultThemeMode = "light";
+    var themeMode;
+    if (document.documentElement) {
+        if (document.documentElement.hasAttribute("data-theme-mode")) {
+            themeMode = document.documentElement.getAttribute("data-theme-mode");
+        } else {
+            if (localStorage.getItem("data-theme") !== null) {
+                themeMode = localStorage.getItem("data-theme");
+            } else {
+                themeMode = defaultThemeMode;
+            }
+        }
+        if (themeMode === "system") {
+            themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", themeMode);
+    }
+</script>
+<!--  Theme mode setup on page load -->
+
+<!--begin::App-->
+<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+        <!--begin::Page bg image-->
+<style>body { background-image: url('images/auth/bg8.jpg'); } [data-theme="dark"] body { background-image: url('images/auth/bg8.jpg'); }</style>
+<!--end::Page bg image-->
+
+<div class="d-flex flex-column flex-center flex-column-fluid">
+    <div class="d-flex flex-column flex-center text-center p-10">
+        <div class="card card-flush w-lg-650px py-5">
+            <div class="card-body py-15 py-lg-20">
+                <img src="images/auth/icon-positive-vote-1.svg" class="mb-3" alt="logo">
+                <h1 class="fw-bolder fs-2qx text-gray-900 mb-4">Thank You</h1>
+                <div class="fw-semibold fs-6 text-gray-500 mb-7">Your review has been submitted.</div>
+                <div class="mb-11">
+                </div>
+                <div class="mb-0">
+                    <a href="#" class="btn btn-sm btn-primary">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--end::App-->
+
+<!--begin::Modals-->
+<!--begin::Modal Reset Password-->
+<div class="modal fade" tabindex="-1" id="modal-change-password">
+    <div class="modal-dialog mw-650px">
+        <div class="modal-content position-absolute">
+            <div class="modal-header">
+                <h5 class="modal-title">Change Password</h5>
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"/>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <form class="form" validate="validate" action="/" method="post">
+                <div class="modal-body">
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">Current Password</label>
+                        <input type="password" name="currentPassword" class="form-control mb-2" placeholder="Type in current password" value="">
+                    </div>
+                    <div class="fv-row">
+                        <div class="fv-plugins-message-container invalid-feedback">
+                            *Password must consist of min 12 characters (at least 1 alphabet, 1 number, 1 special, and
+                            mixed case)
+                        </div>
+                    </div>
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">New Password</label>
+                        <input type="password" name="newPass" class="form-control mb-2" placeholder="Type password" value="">
+                    </div>
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">Confirm Password</label>
+                        <input type="password" name="confirmPass" class="form-control mb-2" placeholder="Type confirm password" value="">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--end::Modal Reset Password--><div class="modal fade" tabindex="-1" id="modal-upload-and-dam-image">
+    <div class="modal-dialog mw-800px">
+        <div class="modal-content position-absolute">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title"></h5>
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"/>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="modal-body py-0">
+                <div class="card-body">
+                    <!--begin::Tabs-->
+                    <ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-1x fs-4 fw-semibold mb-5 me-auto">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-active-dark active" data-bs-toggle="tab" href="#dam-image">DAM</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-active-dark" data-bs-toggle="tab" href="#upload-image">Upload</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="dam-image" role="tabpanel">
+                            <div class="mb-5 row">
+                                <div class="col-md-12">
+                                    <div class="d-flex align-items-center my-1 gap-7">
+                                        <span class="svg-icon svg-icon-1 position-absolute ms-4">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
+                                                <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                        <input type="text" data-kt-customer-table-filter="search" class="form-control ps-12" placeholder="Search">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-1">
+                                <div class="col-md-9">
+                                    <div class="row scroll-y mh-350px">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon-1.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/awards-image.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon-1.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/awards-image.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                    </div>
+                                    <!--begin::Pagination-->
+                                    <div class="row mb-5">
+                                        <div class="col d-flex justify-content-center justify-content-md-center pt-6">
+                                            <ul class="pagination gap-1">
+                                                <li class="page-item mt-1 previous"><a href="#" class="page-link"><i class="previous"></i></a></li>
+                                                <li class="page-item active">
+                                                    <input type="text" class="js-pagination form-control w-40px p-2" value="1">
+                                                </li>
+                                                <li class="page-item mt-3 fw-semibold text-gray-600"><span class="text-muted">of</span></li>
+                                                <li class="page-item mt-3 fw-semibold text-gray-600"><span class="text-muted">250</span></li>
+                                                <li class="page-item next mt-1"><a href="#" class="page-link"><i class="next"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end::Pagination-->                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Name</label>
+                                        <div class="fs-6 fw-semibold text-muted">JPG.jpg</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Type</label>
+                                        <div class="fs-6 fw-semibold text-muted">IMAGE</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Size</label>
+                                        <div class="fs-6 fw-semibold text-muted">14800</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Dimension</label>
+                                        <div class="fs-6 fw-semibold text-muted">500x500</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">Source Folder</label>
+                                        <div class="fs-6 fw-semibold text-muted">Product Photo Category</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="upload-image" role="tabpanel">
+                            <div class="mb-10 fv-row">
+                                <form class="form" action="#" method="post">
+                                    <div class="fv-row">
+                                        <div class="dropzone modal-dropzone text-center mb-7" id="upload-image-file" data-url="http://localhost:9000/image/" data-param-name="Upload Image" data-max-file="10" data-max-filezise="10" data-add-remove-links="true">
+                                            <div class="dz-message needsclick">
+                                                <div class="ms-4 text-center">
+                                                    <label class="form-label">Drop files here to upload</label><br>
+                                                    <label class="form-label">Or</label><br>
+                                                    <button type="button" class="btn btn-light">Browse</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="alert alert-danger d-flex align-items-center p-5">
+                                            <div class="fs-6 fw-semibold text-danger">File is too big (2800 KB). Max filesize: 220 KB.</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <form class="form" validate="validate">
+                                <div class="mb-10 fv-row">
+                                    <div class="col-md-12">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in title" value="">
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row fv-plugins-icon-container">
+                                        <label class="form-label">Copyright Text</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="">
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Alternate Text</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="">
+                                    </div>
+                                </div>
+
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row fv-plugins-icon-container">
+                                        <label class="form-label">Folder</label>
+                                        <select class="form-select" data-control="select2" data-hide-search="true" data-allow-clear="true" data-placeholder="Select folder">
+                                            <option></option>
+                                            <option value="1" selected="selected">Product Information</option>
+                                            <option value="2">Product Information 1</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Max file size</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="220 KB" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row">
+                                        <label class="required form-label">Publish Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Archive Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <p class="text-danger">(Allow will be automatically removed from live site)</p>
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Expiry Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end::Tabs-->
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div><!--end::Modals-->
+
+<script src="scripts/jquery.min.js"></script>
+
+<script src="scripts/plugins.js"></script>
+
+<script src="scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html class="full-screen-mobile no-js" lang="en">
+<head>
+    <title>Admin | Dashboard</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.18838">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+
+    <link rel="shortcut icon" href="images/favicon/favicon.svg" type="image/x-icon">
+
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+    <!--end::Fonts-->
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="kt_app_body" class="app-default" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true">
+
+<!-- begin::Theme mode setup on page load -->
+<script>
+    var defaultThemeMode = "light";
+    var themeMode;
+    if (document.documentElement) {
+        if (document.documentElement.hasAttribute("data-theme-mode")) {
+            themeMode = document.documentElement.getAttribute("data-theme-mode");
+        } else {
+            if (localStorage.getItem("data-theme") !== null) {
+                themeMode = localStorage.getItem("data-theme");
+            } else {
+                themeMode = defaultThemeMode;
+            }
+        }
+        if (themeMode === "system") {
+            themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", themeMode);
+    }
+</script>
+<!--  Theme mode setup on page load -->
+
+<!--begin::App-->
+<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+        <!--begin::Page-->
+        <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+            <!--begin::Header-->
+            <div id="kt_app_header" class="app-header">
+                <!--begin::Header container-->
+                <div class="app-container container-fluid d-flex align-items-stretch justify-content-between" id="kt_app_header_container">
+                    <div class="d-flex align-items-center d-lg-none ms-n3 me-1 me-md-2" title="Show sidebar menu">
+                        <div class="btn btn-icon btn-active-color-primary w-35px h-35px" id="kt_app_sidebar_mobile_toggle">
+                            <span class="svg-icon svg-icon-2 svg-icon-md-1">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="currentColor"/>
+                                    <path opacity="0.3" d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z" fill="currentColor"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+            
+                    <div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1" id="kt_app_header_wrapper">
+                        <div class="app-header-menu app-header-mobile-drawer align-items-stretch" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
+                            <div class="menu menu-rounded menu-column menu-lg-row my-5 my-lg-0 align-items-stretch fw-semibold px-2 px-lg-0" id="kt_app_header_menu" data-kt-menu="true">
+                            </div>
+                        </div>
+            
+                        <div class="app-navbar flex-shrink-0">
+                            <div class="app-navbar-item ms-1 ms-md-3">
+                                <span class="text-mute">Hi, <strong class="js-label-profile">Sean</strong></span>
+                            </div>
+                            <div class="app-navbar-item ms-1 ms-md-3" id="kt_header_user_menu_toggle">
+                                <div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+                                    <div class="box-profile js-box-profile"></div>
+                                </div>
+                                <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
+                                    <div class="menu-item px-3">
+                                        <div class="menu-content d-flex align-items-center px-3">
+                                            <div class="symbol symbol-50px me-5">
+                                                <div class="box-profile js-box-profile"></div>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="fw-bold d-flex align-items-center fs-5">Sean</div>
+                                                <a href="#" class="fw-semibold text-muted text-hover-primary fs-7">sean@example.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="separator my-2"></div>
+                                    <div class="menu-item px-5 my-1">
+                                        <a href="#" class="menu-link px-5" data-bs-toggle="modal" data-bs-target="#modal-change-password">Change Password</a>
+                                    </div>
+                                    <div class="menu-item px-5">
+                                        <a href="#" class="menu-link px-5">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Header container-->
+            </div>
+            <!--end::Header-->            <!--begin::Wrapper-->
+            <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+                <!--begin::Sidebar-->
+                <div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true" data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
+                
+                    <!--begin::Logo-->
+                    <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
+                    </div>
+                    <!--end::Logo-->
+                
+                    <!--begin::sidebar menu-->
+                    <div class="app-sidebar-menu overflow-hidden flex-column-fluid">
+                        <div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper hover-scroll-overlay-y my-5" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px" data-kt-scroll-save-state="true">
+                            <div class="menu menu-column menu-rounded menu-sub-indention px-3" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
+                                <div class="menu-item">
+                                    <a class="menu-link" href="./" target="_blank">
+                                    <span class="menu-icon">
+                                        <span class="svg-icon svg-icon-2">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor"/>
+                                                <rect x="13" y="2" width="9" height="9" rx="2" fill="currentColor" opacity=".3"/>
+                                                <rect x="13" y="13" width="9" height="9" rx="2" fill="currentColor" opacity=".3"/>
+                                                <rect x="2" y="13" width="9" height="9" rx="2" fill="currentColor" opacity=".3"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </a>
+                                </div>
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                    <span class="menu-link">
+                                        <span class="menu-icon">
+                                            <span class="svg-icon svg-icon-2">
+                                                <?xml version="1.0" encoding="UTF-8"?>
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m20 14h-2v-4h2c0.6 0 1 0.4 1 1v2c0 0.6-0.4 1-1 1zm1 5v-2c0-0.6-0.4-1-1-1h-2v4h2c0.6 0 1-0.4 1-1zm0-12v-2c0-0.6-0.4-1-1-1h-2v4h2c0.6 0 1-0.4 1-1z" fill="currentColor"/>
+                                                    <path d="m17 22h-14c-0.6 0-1-0.4-1-1v-18c0-0.6 0.4-1 1-1h14c0.6 0 1 0.4 1 1v18c0 0.6-0.4 1-1 1zm-7-15c-1.1 0-2 0.9-2 2s0.9 2 2 2 2-0.9 2-2-0.9-2-2-2zm3.3 9c0.7 0 1.2-0.7 1-1.3-0.6-1.5-2.3-2.7-4.2-2.7-2 0-3.6 1.1-4.2 2.7-0.3 0.6 0.3 1.3 1.5 1.3h5.9z" fill="currentColor" opacity=".3"/>
+                                                </svg>
+                                            </span>
+                                            </span>
+                                        <span class="menu-title">Users</span>
+                                        <span class="menu-arrow"></span>
+                                    </span>
+                                    <div class="menu-sub menu-sub-accordion">
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./users-list.html">
+                                                <span class="menu-bullet">
+                                                    <span class="bullet bullet-dot"></span>
+                                                </span>
+                                                <span class="menu-title">User Listing</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./users-tag-management.html">
+                                                <span class="menu-bullet">
+                                                    <span class="bullet bullet-dot"></span>
+                                                </span>
+                                                <span class="menu-title">User Tag Management</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./users-confirmation-status.html">
+                                                <span class="menu-bullet">
+                                                    <span class="bullet bullet-dot"></span>
+                                                </span>
+                                                <span class="menu-title">User Confirmation Status</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                    <span class="menu-link">
+                                        <span class="menu-icon">
+                                            <span class="svg-icon svg-icon-2">
+                                                <?xml version="1.0" encoding="UTF-8"?>
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="m4 9.6747 6.8803 3.9723c0.074 0.0428 0.1517 0.0737 0.2308 0.0933v7.7041l-6.6204-3.918c-0.30415-0.18-0.4907-0.5071-0.4907-0.8605v-6.9912zm16-0.1056v7.0968c0 0.3534-0.1865 0.6806-0.4907 0.8605l-6.6204 3.918v-7.7716c0.0161-0.0081 0.0321-0.0166 0.0479-0.0258l7.0632-4.0779z" fill="currentColor"/>
+                                                    <path d="m4.2161 7.7466c0.08404-0.10612 0.19012-0.19581 0.31379-0.26168l7-3.7284c0.2939-0.15652 0.6464-0.15652 0.9402 0l7 3.7284c0.0954 0.05077 0.1803 0.11571 0.2526 0.19141l-7.6747 4.431c-0.0505 0.0292-0.097 0.0625-0.1394 0.0993-0.0424-0.0368-0.0889-0.0701-0.1394-0.0993l-7.553-4.3607z" fill="currentColor" opacity=".3"/>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                        <span class="menu-title">Products</span>
+                                        <span class="menu-arrow"></span>
+                                    </span>
+                                    <div class="menu-sub menu-sub-accordion">
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./product-list.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                                <span class="menu-title">Product Listing</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./product-price-inventory-with-selector.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                                <span class="menu-title">Product Price &amp; Inventory</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./product-category-list.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                                <span class="menu-title">Product Category</span>
+                                            </a>
+                                        </div>
+                                        <div class="menu-item">
+                                            <a class="menu-link" href="./product-specification-list.html">
+                                            <span class="menu-bullet">
+                                                <span class="bullet bullet-dot"></span>
+                                            </span>
+                                                <span class="menu-title">Product Specification</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="./promotion-location.html" target="_blank">
+                                    <span class="menu-icon">
+                                        <span class="svg-icon svg-icon-2">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m11.293 2.7071c0.3905-0.39053 1.0237-0.39053 1.4142 0l2.5858 2.5858c0.3905 0.39053 0.3905 1.0237 0 1.4142l-2.5858 2.5858c-0.3905 0.39053-1.0237 0.39053-1.4142 0l-2.5858-2.5858c-0.39053-0.39053-0.39053-1.0237 0-1.4142l2.5858-2.5858z" fill="currentColor"/>
+                                                <path d="m11.293 14.707c0.3905-0.3905 1.0237-0.3905 1.4142 0l2.5858 2.5858c0.3905 0.3905 0.3905 1.0237 0 1.4142l-2.5858 2.5858c-0.3905 0.3905-1.0237 0.3905-1.4142 0l-2.5858-2.5858c-0.39053-0.3905-0.39053-1.0237 0-1.4142l2.5858-2.5858z" fill="currentColor"/>
+                                                <path d="m5.2929 8.7071c0.39053-0.39053 1.0237-0.39053 1.4142 0l2.5858 2.5858c0.39053 0.3905 0.39053 1.0237 0 1.4142l-2.5858 2.5858c-0.39053 0.3905-1.0237 0.3905-1.4142 0l-2.5858-2.5858c-0.39053-0.3905-0.39053-1.0237 0-1.4142l2.5858-2.5858z" fill="currentColor" opacity=".3"/>
+                                                <path d="m17.293 8.7071c0.3905-0.39053 1.0237-0.39053 1.4142 0l2.5858 2.5858c0.3905 0.3905 0.3905 1.0237 0 1.4142l-2.5858 2.5858c-0.3905 0.3905-1.0237 0.3905-1.4142 0l-2.5858-2.5858c-0.3905-0.3905-0.3905-1.0237 0-1.4142l2.5858-2.5858z" fill="currentColor" opacity=".3"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                        <span class="menu-title">Promotion</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="./" target="_blank">
+                                    <span class="menu-icon">
+                                        <span class="svg-icon svg-icon-2">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="4" y="4" width="8" height="16" fill="currentColor" opacity=".3"/>
+                                                <path d="m18 6h-3s-1-0.17157-1-1 1-1 1-1h5v5s0 1-1 1-1-1-1-1v-3zm-9 12h-3v-3s0-1-1-1-1 1-1 1v5h5s1-0.1716 1-1-1-1-1-1zm9-3v3h-3s-1 0-1 1 1 1 1 1h5v-5s-0.1716-1-1-1-1 1-1 1zm-12-6v-3h3s1 0 1-1-1-1-1-1h-5v5s0.17157 1 1 1 1-1 1-1z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                        <span class="menu-title">Order Management</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="./channel-list.html" target="_blank">
+                                    <span class="menu-icon">
+                                        <span class="svg-icon svg-icon-2">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m5.5 4c-0.82843 0-1.5 0.67157-1.5 1.5v1c0 0.82843 0.67157 1.5 1.5 1.5h4c0.8284 0 1.5-0.67157 1.5-1.5v-1c0-0.82843-0.6716-1.5-1.5-1.5h-4zm9 12c-0.8284 0-1.5 0.6716-1.5 1.5v1c0 0.8284 0.6716 1.5 1.5 1.5h4c0.8284 0 1.5-0.6716 1.5-1.5v-1c0-0.8284-0.6716-1.5-1.5-1.5h-4z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"/>
+                                                <path d="m14.5 4c-0.8284 0-1.5 0.67157-1.5 1.5v7c0 0.8284 0.6716 1.5 1.5 1.5h4c0.8284 0 1.5-0.6716 1.5-1.5v-7c0-0.82843-0.6716-1.5-1.5-1.5h-4zm-9 6c-0.82843 0-1.5 0.6716-1.5 1.5v7c0 0.8284 0.67157 1.5 1.5 1.5h4c0.8284 0 1.5-0.6716 1.5-1.5v-7c0-0.8284-0.6716-1.5-1.5-1.5h-4z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" opacity=".3"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                        <span class="menu-title">Channel Management</span>
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="menu-link" href="./" target="_blank">
+                                    <span class="menu-icon">
+                                        <span class="svg-icon svg-icon-2">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m17.5 11h-11c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5h11c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5zm-2.5-4.5c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5-1.1-2.5-2.5-2.5-2.5 1.1-2.5 2.5z" fill="currentColor"/>
+                                                <path d="m17.5 22h-11c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5h11c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5zm-13.5-4.5c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5-1.1-2.5-2.5-2.5-2.5 1.1-2.5 2.5z" fill="currentColor" opacity=".3"/>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                        <span class="menu-title">Digital Assets Management</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::sidebar menu-->
+                </div>
+                <!--end::Sidebar-->                <!--begin::Main-->
+                <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+                    <!--begin::Content wrapper-->
+                    <div class="d-flex flex-column flex-column-fluid">
+                        <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+                            <div class="d-flex flex-column flex-column-fluid">
+                                <div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
+                                    <div id="kt_app_toolbar_container" class="app-container container-fluid d-flex flex-stack">
+                                        <div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div id="kt_app_content" class="app-content flex-column-fluid">
+                                    <div id="kt_app_content_container" class="app-container container-fluid">
+                                        <div class="card">
+                                            <div class="card-body p-5 px-lg-19 py-lg-16">
+                                                <div class="mb-15">
+                                                    <h1 class="fs-2x text-dark mb-6">Admin HTML</h1>
+                                                </div>
+                                                <div class="row g-10 mb-15">
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Products</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-5 gap-5">
+                                                                <a href="./product-list.html" class="text-muted text-hover-primary" target="_BLANK">Product Listing Page</a>
+                                        <a href="./product-create-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Create Page (Main, Variant &amp; Bundle)</a>
+                                        <a href="./product-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Edit Page</a>
+                                        <a href="./product-manage-publication.html" class="text-muted text-hover-primary" target="_BLANK">Product Manage Publication</a>
+                                        <a href="./product-manage-translation.html" class="text-muted text-hover-primary" target="_BLANK">Product Manage Translation</a>
+                                        <a href="./product-manage-subvariant.html" class="text-muted text-hover-primary" target="_BLANK">Product Manage Subvariant</a>
+                                        <a href="./product-create-manage-translation-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Create Manage Translation Page</a>
+                                        <a href="./product-create-location-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Create Location Page</a>
+                                        <a href="./product-create-channel-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Create Channel Page</a>
+                                        <a href="./product-price-inventory-with-selector.html" class="text-muted text-hover-primary" target="_BLANK">Product Price &amp; Inventory with Selector</a>
+                                        <a href="./product-price-inventory-with-location.html" class="text-muted text-hover-primary" target="_BLANK">Product Price &amp; Inventory with Location (Default)</a>
+                                        <a href="./product-price-inventory-with-location-india.html" class="text-muted text-hover-primary" target="_BLANK">Product Price &amp; Inventory with Location (India)</a>
+                                        <a href="./product-price-inventory-with-channel.html" class="text-muted text-hover-primary" target="_BLANK">Product Price &amp; Inventory with Channel</a>
+                                        <a href="./product-specification-list.html" class="text-muted text-hover-primary" target="_BLANK">Product Specification</a>
+                                        <a href="./product-specification-create-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Specification Create Page</a>
+                                        <a href="./product-specification-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Specification Edit Page</a>
+                                        <a href="./product-category-list.html" class="text-muted text-hover-primary" target="_BLANK">Product Category</a>
+                                        <a href="./product-category-with-manage-channel.html" class="text-muted text-hover-primary" target="_BLANK">Product Category with Manage Channel</a>
+                                        <a href="./product-category-with-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">Product Category with Edit Page</a>
+                                </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Users</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-5 gap-5">
+                                                                <a href="./users-list.html" class="text-muted text-hover-primary" target="_BLANK">User List Page</a>
+                                        <a href="./users-not-found-list.html" class="text-muted text-hover-primary" target="_BLANK">User List Page (No records)</a>
+                                        <a href="./user-create-page.html" class="text-muted text-hover-primary" target="_BLANK">User Create Page</a>
+                                        <a href="./user-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">User Edit Page</a>
+                                        <a href="./users-tag-management.html" class="text-muted text-hover-primary" target="_BLANK">User Tag Management</a>
+                                        <a href="./user-create-tag-page.html" class="text-muted text-hover-primary" target="_BLANK">User Create Tag Page</a>
+                                        <a href="./user-edit-tag-page.html" class="text-muted text-hover-primary" target="_BLANK">User Edit Tag Page</a>
+                                        <a href="./users-confirmation-status.html" class="text-muted text-hover-primary" target="_BLANK">User Confirmation Status</a>
+                                        <a href="./user-confirmation-detail-page.html" class="text-muted text-hover-primary" target="_BLANK">User Confirmation Detail</a>
+                                </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Promotion</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-5 gap-5">
+                                                                <a href="./promotion-location.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Location Page</a>
+                                        <a href="./promotion-location-list.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Listing Page</a>
+                                        <a href="./promotion-create-page.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Create Page</a>
+                                        <a href="./promotion-create-with-catalog-and-cart-page-v1.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Create with Catalog and Cart Page v1</a>
+                                        <a href="./promotion-create-with-catalog-and-cart-page-v2.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Create with Catalog and Cart Page v2</a>
+                                        <a href="./promotion-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Edit Page</a>
+                                        <a href="./promotion-preview-page.html" class="text-muted text-hover-primary" target="_BLANK">Promotion Preview Page</a>
+                                </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row g-10 mb-18">
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Order Management</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-4 gap-5">
+                                                                <a href="./" class="text-muted text-hover-primary" target="_BLANK">Order Management Listing Page</a>
+                                        <a href="./" class="text-muted text-hover-primary" target="_BLANK">Order Create Page</a>
+                                        <a href="./" class="text-muted text-hover-primary" target="_BLANK">Order Edit Page</a>
+                                </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Channel Management</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-4 gap-5">
+                                                                <a href="./channel-list.html" class="text-muted text-hover-primary" target="_BLANK">Channel Management List</a>
+                                        <a href="./channel-create-page.html" class="text-muted text-hover-primary" target="_BLANK">Channel Create Page</a>
+                                        <a href="./channel-edit-page.html" class="text-muted text-hover-primary" target="_BLANK">Channel Edit Page</a>
+                                        <a href="./channel-with-product-list.html" class="text-muted text-hover-primary" target="_BLANK">Channel with Product Listing</a>
+                                        <a href="./channel-with-manage-channel.html" class="text-muted text-hover-primary" target="_BLANK">Channel with Manage Channel</a>
+                                </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">Digital Assets Management</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-4 gap-5">
+                                                            <a href="javascript:;" class="text-muted text-hover-primary" data-bs-toggle="modal" data-bs-target="#modal-upload-and-dam-image">Modal Digital Assets Management</a>
+                                                                <a href="./" class="text-muted text-hover-primary" target="_BLANK">Digital Assets Listing Page</a>
+                                        <a href="./" class="text-muted text-hover-primary" target="_BLANK">Digital Assets Create Page</a>
+                                        <a href="./" class="text-muted text-hover-primary" target="_BLANK">Digital Assets Edit Page</a>
+                                </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row g-10 mb-18">
+                                                    <div class="col-sm-4">
+                                                        <h3 class="fw-bold text-dark mb-7">General</h3>
+                                                        <div class="d-flex flex-column fw-semibold fs-4 gap-5">
+                                                                <a href="./sign-in.html" class="text-muted text-hover-primary" target="_BLANK">Sign In Page</a>
+                                        <a href="./reset-password.html" class="text-muted text-hover-primary" target="_BLANK">Reset Password Page</a>
+                                        <a href="./error-404-page.html" class="text-muted text-hover-primary" target="_BLANK">Error 404 Page</a>
+                                        <a href="./error-500-page.html" class="text-muted text-hover-primary" target="_BLANK">Error 500 Page</a>
+                                        <a href="./error-505-page.html" class="text-muted text-hover-primary" target="_BLANK">Error 505 Page</a>
+                                        <a href="./confirmation-page-1.html" class="text-muted text-hover-primary" target="_BLANK">Confirmation Page 1</a>
+                                        <a href="./confirmation-page-2.html" class="text-muted text-hover-primary" target="_BLANK">Confirmation Page 2</a>
+                                        <a href="./confirmation-page-3.html" class="text-muted text-hover-primary" target="_BLANK">Confirmation Page 3</a>
+                                        <a href="./confirmation-page-4.html" class="text-muted text-hover-primary" target="_BLANK">Confirmation Page 4</a>
+                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    </div>
+                    <!--end::Content wrapper-->
+                    <!--start::Footer-->
+                    <div id="kt_app_footer" class="app-footer">
+                        <div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+                            <div class="text-dark order-2 order-md-1">
+                                <span class="text-muted fw-semibold me-1">Copyright 2023&copy; Canon Singapore Pte. Ltd. All rights reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end::Footer-->                </div>
+                <!--end:::Main-->
+            </div>
+            <!--end::Wrapper-->
+        </div>
+        <!--end::Page-->
+</div>
+<!--end::App-->
+
+<!--begin::Modals-->
+<!--begin::Modal Reset Password-->
+<div class="modal fade" tabindex="-1" id="modal-change-password">
+    <div class="modal-dialog mw-650px">
+        <div class="modal-content position-absolute">
+            <div class="modal-header">
+                <h5 class="modal-title">Change Password</h5>
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"/>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <form class="form" validate="validate" action="/" method="post">
+                <div class="modal-body">
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">Current Password</label>
+                        <input type="password" name="currentPassword" class="form-control mb-2" placeholder="Type in current password" value="">
+                    </div>
+                    <div class="fv-row">
+                        <div class="fv-plugins-message-container invalid-feedback">
+                            *Password must consist of min 12 characters (at least 1 alphabet, 1 number, 1 special, and
+                            mixed case)
+                        </div>
+                    </div>
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">New Password</label>
+                        <input type="password" name="newPass" class="form-control mb-2" placeholder="Type password" value="">
+                    </div>
+                    <div class="mb-10 fv-row">
+                        <label class="form-label">Confirm Password</label>
+                        <input type="password" name="confirmPass" class="form-control mb-2" placeholder="Type confirm password" value="">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--end::Modal Reset Password--><div class="modal fade" tabindex="-1" id="modal-upload-and-dam-image">
+    <div class="modal-dialog mw-800px">
+        <div class="modal-content position-absolute">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title"></h5>
+                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
+                    <span class="svg-icon svg-icon-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"/>
+                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="modal-body py-0">
+                <div class="card-body">
+                    <!--begin::Tabs-->
+                    <ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-1x fs-4 fw-semibold mb-5 me-auto">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-active-dark active" data-bs-toggle="tab" href="#dam-image">DAM</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-active-dark" data-bs-toggle="tab" href="#upload-image">Upload</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="dam-image" role="tabpanel">
+                            <div class="mb-5 row">
+                                <div class="col-md-12">
+                                    <div class="d-flex align-items-center my-1 gap-7">
+                                        <span class="svg-icon svg-icon-1 position-absolute ms-4">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
+                                                <path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                        <input type="text" data-kt-customer-table-filter="search" class="form-control ps-12" placeholder="Search">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-1">
+                                <div class="col-md-9">
+                                    <div class="row scroll-y mh-350px">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon-1.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/awards-image.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon-1.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/awards-image.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/camera-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                        <img src="images/misc/spinner.gif" data-src="images/placeholder/print-canon.jpg" class="dam-item p-0 lozad rounded w-125px" alt="">
+                                    </div>
+                                    <!--begin::Pagination-->
+                                    <div class="row mb-5">
+                                        <div class="col d-flex justify-content-center justify-content-md-center pt-6">
+                                            <ul class="pagination gap-1">
+                                                <li class="page-item mt-1 previous"><a href="#" class="page-link"><i class="previous"></i></a></li>
+                                                <li class="page-item active">
+                                                    <input type="text" class="js-pagination form-control w-40px p-2" value="1">
+                                                </li>
+                                                <li class="page-item mt-3 fw-semibold text-gray-600"><span class="text-muted">of</span></li>
+                                                <li class="page-item mt-3 fw-semibold text-gray-600"><span class="text-muted">250</span></li>
+                                                <li class="page-item next mt-1"><a href="#" class="page-link"><i class="next"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end::Pagination-->                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Name</label>
+                                        <div class="fs-6 fw-semibold text-muted">JPG.jpg</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Type</label>
+                                        <div class="fs-6 fw-semibold text-muted">IMAGE</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Size</label>
+                                        <div class="fs-6 fw-semibold text-muted">14800</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">File Dimension</label>
+                                        <div class="fs-6 fw-semibold text-muted">500x500</div>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="fs-4 fw-bold">Source Folder</label>
+                                        <div class="fs-6 fw-semibold text-muted">Product Photo Category</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="upload-image" role="tabpanel">
+                            <div class="mb-10 fv-row">
+                                <form class="form" action="#" method="post">
+                                    <div class="fv-row">
+                                        <div class="dropzone modal-dropzone text-center mb-7" id="upload-image-file" data-url="http://localhost:9000/image/" data-param-name="Upload Image" data-max-file="10" data-max-filezise="10" data-add-remove-links="true">
+                                            <div class="dz-message needsclick">
+                                                <div class="ms-4 text-center">
+                                                    <label class="form-label">Drop files here to upload</label><br>
+                                                    <label class="form-label">Or</label><br>
+                                                    <button type="button" class="btn btn-light">Browse</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="alert alert-danger d-flex align-items-center p-5">
+                                            <div class="fs-6 fw-semibold text-danger">File is too big (2800 KB). Max filesize: 220 KB.</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <form class="form" validate="validate">
+                                <div class="mb-10 fv-row">
+                                    <div class="col-md-12">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in title" value="">
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row fv-plugins-icon-container">
+                                        <label class="form-label">Copyright Text</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="">
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Alternate Text</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="">
+                                    </div>
+                                </div>
+
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row fv-plugins-icon-container">
+                                        <label class="form-label">Folder</label>
+                                        <select class="form-select" data-control="select2" data-hide-search="true" data-allow-clear="true" data-placeholder="Select folder">
+                                            <option></option>
+                                            <option value="1" selected="selected">Product Information</option>
+                                            <option value="2">Product Information 1</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Max file size</label>
+                                        <input type="text" name="name" class="form-control mb-2" placeholder="Type in text" value="220 KB" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row">
+                                        <label class="required form-label">Publish Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Archive Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <p class="text-danger">(Allow will be automatically removed from live site)</p>
+                                    </div>
+                                </div>
+                                <div class="row g-9 mb-8">
+                                    <div class="col-md-6 fv-row">
+                                        <label class="form-label">Expiry Date</label>
+                                        <div class="input-group">
+                                            <input class="form-control js-date-picker" name="publishDate" placeholder="Select date" value="">
+                                            <span class="input-group-text">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.625 1.125V2.25H10.125V1.125C10.125 0.503789 10.6277 0 11.25 0C11.8723 0 12.375 0.503789 12.375 1.125V2.25H14.0625C14.9941 2.25 15.75 3.00551 15.75 3.9375V5.625H0V3.9375C0 3.00551 0.755508 2.25 1.6875 2.25H3.375V1.125C3.375 0.503789 3.87773 0 4.5 0C5.12227 0 5.625 0.503789 5.625 1.125ZM0 6.75H15.75V16.3125C15.75 17.2441 14.9941 18 14.0625 18H1.6875C0.755508 18 0 17.2441 0 16.3125V6.75ZM2.25 10.6875C2.25 10.9969 2.50172 11.25 2.8125 11.25H3.9375C4.24688 11.25 4.5 10.9969 4.5 10.6875V9.5625C4.5 9.25312 4.24688 9 3.9375 9H2.8125C2.50172 9 2.25 9.25312 2.25 9.5625V10.6875ZM6.75 10.6875C6.75 10.9969 7.00312 11.25 7.3125 11.25H8.4375C8.74688 11.25 9 10.9969 9 10.6875V9.5625C9 9.25312 8.74688 9 8.4375 9H7.3125C7.00312 9 6.75 9.25312 6.75 9.5625V10.6875ZM11.8125 9C11.5031 9 11.25 9.25312 11.25 9.5625V10.6875C11.25 10.9969 11.5031 11.25 11.8125 11.25H12.9375C13.2469 11.25 13.5 10.9969 13.5 10.6875V9.5625C13.5 9.25312 13.2469 9 12.9375 9H11.8125ZM2.25 15.1875C2.25 15.4969 2.50172 15.75 2.8125 15.75H3.9375C4.24688 15.75 4.5 15.4969 4.5 15.1875V14.0625C4.5 13.7531 4.24688 13.5 3.9375 13.5H2.8125C2.50172 13.5 2.25 13.7531 2.25 14.0625V15.1875ZM7.3125 13.5C7.00312 13.5 6.75 13.7531 6.75 14.0625V15.1875C6.75 15.4969 7.00312 15.75 7.3125 15.75H8.4375C8.74688 15.75 9 15.4969 9 15.1875V14.0625C9 13.7531 8.74688 13.5 8.4375 13.5H7.3125ZM11.25 15.1875C11.25 15.4969 11.5031 15.75 11.8125 15.75H12.9375C13.2469 15.75 13.5 15.4969 13.5 15.1875V14.0625C13.5 13.7531 13.2469 13.5 12.9375 13.5H11.8125C11.5031 13.5 11.25 13.7531 11.25 14.0625V15.1875Z" fill="#B5B5C3"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end::Tabs-->
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div><!--end::Modals-->
+
+<script src="scripts/jquery.min.js"></script>
+
+<script src="scripts/plugins.js"></script>
+
+<script src="scripts/main.js"></script>
+
+</body>
+
+</html>
