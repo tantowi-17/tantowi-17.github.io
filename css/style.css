@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 34px;
+    font-size: 24px;
   }
   #fh5co-header .display-tc h1 span:before,
   .fh5co-cover .display-tc h1 span:before {
@@ -1290,4 +1290,11 @@ input[type="text"] {
   opacity: 0;
 }
 
+.thumbnail {
+  border: none;
+}
+
+.thumbnail img {
+  border-radius: 8px;
+}
 /*# sourceMappingURL=style.css.map */
