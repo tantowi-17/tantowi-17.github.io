@@ -609,6 +609,99 @@
 		</div>
 	</div>
 	<hr>
+	<div id="fh5co-sertifikat" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Sertifikat</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-1.png" alt="Introduction to Backend Development">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-2.png" alt="Sertifikat Asisten Dosen">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-3.png" alt="DTS Kominfo PROA - UX Challenge">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-4.png" alt="UI/UX Design Mastery">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-5.png" alt="Sertifikat Tanto Wibowo S.Kom M.Kom">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-6.png" alt="Sertifikat Kompetensi">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-7.png" alt="Full Stack Flutter Developer">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-8.png" alt="Sertifikat Course">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 animate-box">
+					<div class="sertifikat-item" onclick="openLightbox(this)">
+						<img src="images/sertifikat-9.png" alt="Sertifikat Dart Programming">
+						<div class="sertifikat-overlay">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Lightbox Modal -->
+	<div id="sertifikat-lightbox" class="sertifikat-lightbox" onclick="closeLightbox(event)">
+		<span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+		<span class="lightbox-nav lightbox-prev" onclick="navLightbox(event, -1)">&#10094;</span>
+		<img id="lightbox-img" class="lightbox-content" src="" alt="Sertifikat">
+		<span class="lightbox-nav lightbox-next" onclick="navLightbox(event, 1)">&#10095;</span>
+	</div>
+
+	<hr>
 	<div id="fh5co-skills" class="animate-box">
 		<div class="container">
 			<div class="row">
@@ -800,6 +893,54 @@
 					}).join('');
 				}).catch(err => console.error('Failed load Medium RSS', err));
 	</script>
+
+	<script>
+		// Lightbox for Sertifikat
+		var currentLightboxIndex = 0;
+		var sertifikatImages = [];
+
+		function openLightbox(el) {
+			var imgSrc = el.querySelector('img').src;
+			var items = document.querySelectorAll('.sertifikat-item');
+			sertifikatImages = [];
+			items.forEach(function(item, index) {
+				sertifikatImages.push(item.querySelector('img').src);
+				if (item === el) currentLightboxIndex = index;
+			});
+			document.getElementById('lightbox-img').src = imgSrc;
+			document.getElementById('sertifikat-lightbox').classList.add('active');
+			document.body.style.overflow = 'hidden';
+		}
+
+		function closeLightbox(event) {
+			if (event.target.classList.contains('sertifikat-lightbox') || event.target.classList.contains('lightbox-close')) {
+				document.getElementById('sertifikat-lightbox').classList.remove('active');
+				document.body.style.overflow = '';
+			}
+		}
+
+		function navLightbox(event, direction) {
+			event.stopPropagation();
+			currentLightboxIndex += direction;
+			if (currentLightboxIndex < 0) currentLightboxIndex = sertifikatImages.length - 1;
+			if (currentLightboxIndex >= sertifikatImages.length) currentLightboxIndex = 0;
+			document.getElementById('lightbox-img').src = sertifikatImages[currentLightboxIndex];
+		}
+
+		document.addEventListener('keydown', function(e) {
+			var lightbox = document.getElementById('sertifikat-lightbox');
+			if (!lightbox.classList.contains('active')) return;
+			if (e.key === 'Escape') {
+				lightbox.classList.remove('active');
+				document.body.style.overflow = '';
+			} else if (e.key === 'ArrowLeft') {
+				navLightbox(e, -1);
+			} else if (e.key === 'ArrowRight') {
+				navLightbox(e, 1);
+			}
+		});
+	</script>
 	</body>
+
 </html>
 

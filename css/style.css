@@ -1405,4 +1405,172 @@ input[type="text"] {
     width: 100%;
   }
 }
+
+/* ======= Sertifikat Section ======= */
+#fh5co-sertifikat {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-sertifikat {
+    padding: 3em 0;
+  }
+}
+
+.sertifikat-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sertifikat-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sertifikat-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.sertifikat-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.sertifikat-item:hover img {
+  transform: scale(1.05);
+}
+
+.sertifikat-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.sertifikat-item:hover .sertifikat-overlay {
+  opacity: 1;
+}
+
+.sertifikat-overlay i {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* ======= Lightbox Modal ======= */
+.sertifikat-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+  animation: lightboxFadeIn 0.3s ease;
+}
+
+.sertifikat-lightbox.active {
+  display: flex;
+}
+
+@keyframes lightboxFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 85vh;
+  border-radius: 8px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+  animation: lightboxZoomIn 0.35s ease;
+  object-fit: contain;
+}
+
+@keyframes lightboxZoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100000;
+  line-height: 1;
+  transition: color 0.2s ease, transform 0.2s ease;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.lightbox-close:hover {
+  color: #FF9000;
+  transform: scale(1.2);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100000;
+  padding: 12px 18px;
+  user-select: none;
+  transition: color 0.2s ease, background 0.2s ease;
+  border-radius: 50%;
+}
+
+.lightbox-nav:hover {
+  color: #FF9000;
+  background: rgba(255,255,255,0.1);
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .sertifikat-item img {
+    height: 180px;
+  }
+  .lightbox-nav {
+    font-size: 32px;
+    padding: 8px 12px;
+  }
+  .lightbox-close {
+    font-size: 32px;
+    top: 15px;
+    right: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
