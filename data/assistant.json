@@ -1,0 +1,1459 @@
+{
+	"profile": {
+		"name": "Tanto Wibowo",
+		"email": "tantowibowo7@gmail.com",
+		"location": "Makassar, Indonesia",
+		"timezone": "GMT+8 (WITA)"
+	},
+	"synonyms": {
+		"price": [
+			"pricing",
+			"prices",
+			"cost",
+			"costs",
+			"rate",
+			"rates",
+			"fee",
+			"fees",
+			"budget",
+			"quote",
+			"quotation",
+			"charge",
+			"harga",
+			"biaya",
+			"tarif",
+			"ongkos",
+			"anggaran",
+			"mahal",
+			"murah",
+			"bayar",
+			"pay",
+			"payment",
+			"how much",
+			"berapa harga",
+			"kisaran harga"
+		],
+		"time": [
+			"timeline",
+			"duration",
+			"deadline",
+			"long",
+			"lama",
+			"waktu",
+			"durasi",
+			"how long",
+			"berapa lama",
+			"estimasi waktu",
+			"turnaround"
+		],
+		"service": [
+			"services",
+			"offer",
+			"offers",
+			"offering",
+			"provide",
+			"jasa",
+			"layanan",
+			"menawarkan",
+			"tawarkan",
+			"what can you do",
+			"what do you do"
+		],
+		"website": [
+			"web",
+			"site",
+			"sites",
+			"websites",
+			"situs",
+			"webpage",
+			"laman",
+			"halaman"
+		],
+		"build": [
+			"make",
+			"create",
+			"develop",
+			"development",
+			"bikin",
+			"buat",
+			"membuat",
+			"membangun",
+			"bangun",
+			"pembuatan",
+			"pengembangan",
+			"built"
+		],
+		"hire": [
+			"hiring",
+			"employ",
+			"recruit",
+			"rekrut",
+			"collaborate",
+			"collaboration",
+			"kerjasama",
+			"kerja sama",
+			"kolaborasi",
+			"order",
+			"pesan",
+			"work together",
+			"work with you",
+			"start a project",
+			"mulai project",
+			"ajak kerja",
+			"project baru",
+			"new project"
+		],
+		"contact": [
+			"reach",
+			"email",
+			"mail",
+			"e mail",
+			"hubungi",
+			"kontak",
+			"menghubungi",
+			"get in touch",
+			"message",
+			"dm"
+		],
+		"experience": [
+			"pengalaman",
+			"career",
+			"karir",
+			"karier",
+			"work history",
+			"riwayat kerja",
+			"jobs",
+			"job",
+			"worked",
+			"employment"
+		],
+		"skill": [
+			"skills",
+			"stack",
+			"tech stack",
+			"tech",
+			"technology",
+			"technologies",
+			"tools",
+			"toolbox",
+			"keahlian",
+			"kemampuan",
+			"teknologi",
+			"frameworks",
+			"framework",
+			"languages",
+			"bahasa pemrograman",
+			"expertise"
+		],
+		"project": [
+			"projects",
+			"portfolio",
+			"portofolio",
+			"karya",
+			"proyek",
+			"showcase",
+			"case",
+			"cases",
+			"case study",
+			"examples",
+			"contoh",
+			"samples",
+			"hasil kerja"
+		],
+		"education": [
+			"study",
+			"studies",
+			"degree",
+			"degrees",
+			"university",
+			"kuliah",
+			"pendidikan",
+			"kampus",
+			"gelar",
+			"sarjana",
+			"bachelor",
+			"master",
+			"school",
+			"studied"
+		],
+		"certificate": [
+			"certificates",
+			"certification",
+			"certifications",
+			"certified",
+			"sertifikat",
+			"sertifikasi",
+			"course",
+			"courses",
+			"kursus",
+			"training",
+			"pelatihan"
+		],
+		"article": [
+			"articles",
+			"blog",
+			"blogs",
+			"writing",
+			"writings",
+			"tulisan",
+			"artikel",
+			"medium",
+			"post",
+			"posts"
+		],
+		"location": [
+			"based",
+			"live",
+			"located",
+			"lokasi",
+			"tinggal",
+			"domisili",
+			"kota",
+			"city",
+			"country",
+			"negara",
+			"where",
+			"dimana",
+			"timezone",
+			"time zone",
+			"zona waktu",
+			"gmt",
+			"di mana"
+		],
+		"available": [
+			"availability",
+			"tersedia",
+			"open to work",
+			"open for work",
+			"free",
+			"slot",
+			"kapan",
+			"start",
+			"mulai",
+			"remote",
+			"full time",
+			"fulltime",
+			"part time"
+		],
+		"greeting": [
+			"hi",
+			"hello",
+			"hey",
+			"halo",
+			"hai",
+			"hallo",
+			"helo",
+			"morning",
+			"pagi",
+			"siang",
+			"sore",
+			"malam",
+			"assalamualaikum",
+			"good morning",
+			"good afternoon",
+			"good evening",
+			"selamat pagi",
+			"selamat siang",
+			"selamat sore",
+			"selamat malam"
+		],
+		"thanks": [
+			"thank",
+			"thank you",
+			"thx",
+			"makasih",
+			"terima kasih",
+			"trims",
+			"tq",
+			"appreciate",
+			"thanks a lot",
+			"nuhun"
+		],
+		"bye": [
+			"goodbye",
+			"see you",
+			"dadah",
+			"sampai jumpa",
+			"cya"
+		],
+		"bot": [
+			"robot",
+			"chatbot",
+			"ai",
+			"human",
+			"manusia",
+			"real person",
+			"who are you",
+			"kamu siapa",
+			"siapa kamu",
+			"asisten",
+			"assistant",
+			"are you real"
+		],
+		"process": [
+			"workflow",
+			"steps",
+			"step",
+			"methodology",
+			"proses",
+			"alur",
+			"tahapan",
+			"cara kerja",
+			"how do you work",
+			"how you work"
+		],
+		"nda": [
+			"confidential",
+			"rahasia",
+			"client names",
+			"which company",
+			"which companies",
+			"nama klien",
+			"brand",
+			"brands",
+			"who are the clients"
+		],
+		"client": [
+			"clients",
+			"klien",
+			"customer",
+			"customers",
+			"pelanggan"
+		],
+		"cv": [
+			"resume",
+			"curriculum vitae",
+			"riwayat hidup"
+		],
+		"award": [
+			"awards",
+			"achievement",
+			"achievements",
+			"competition",
+			"prize",
+			"penghargaan",
+			"prestasi",
+			"lomba",
+			"juara",
+			"winner",
+			"won",
+			"recognition"
+		],
+		"design": [
+			"desain",
+			"ui ux",
+			"uiux",
+			"ui",
+			"ux",
+			"mockup",
+			"wireframe",
+			"prototype",
+			"redesign"
+		],
+		"landing": [
+			"landing page",
+			"landing pages",
+			"company profile",
+			"profil perusahaan",
+			"website company",
+			"promo page"
+		],
+		"webapp": [
+			"web app",
+			"web apps",
+			"web application",
+			"aplikasi web",
+			"dashboard",
+			"dashboards",
+			"admin panel",
+			"sistem informasi",
+			"information system",
+			"portal",
+			"e learning",
+			"lms"
+		],
+		"cms": [
+			"content management",
+			"corporate website",
+			"enterprise website"
+		],
+		"migration": [
+			"migrate",
+			"migrasi",
+			"modernize",
+			"modernization",
+			"modernisasi",
+			"upgrade",
+			"revamp",
+			"refactor",
+			"rewrite"
+		],
+		"frontend": [
+			"front end",
+			"front-end",
+			"fe"
+		],
+		"backend": [
+			"back end",
+			"back-end",
+			"server side",
+			"api",
+			"apis"
+		],
+		"logo": [
+			"branding",
+			"brand identity",
+			"graphic design",
+			"desain logo",
+			"identitas brand"
+		],
+		"maintenance": [
+			"maintain",
+			"bug",
+			"bugs",
+			"fix",
+			"fixing",
+			"bug fix",
+			"perbaikan",
+			"perawatan",
+			"support",
+			"optimization",
+			"optimisasi"
+		],
+		"cancel": [
+			"stop",
+			"batal",
+			"nevermind",
+			"never mind",
+			"gak jadi",
+			"nggak jadi",
+			"tidak jadi",
+			"exit",
+			"keluar",
+			"quit"
+		],
+		"skip": [
+			"lewati",
+			"lewat",
+			"skip it",
+			"no thanks",
+			"tidak usah",
+			"gak usah"
+		]
+	},
+	"intents": [
+		{
+			"id": "greeting",
+			"minor": true,
+			"label": {
+				"en": "Hello",
+				"id": "Halo"
+			},
+			"patterns": [
+				"greeting",
+				"hey there",
+				"hello there"
+			],
+			"answer": {
+				"en": [
+					"Hi! I'm Tanto's portfolio assistant. Ask me about his experience, projects, skills or web services."
+				],
+				"id": [
+					"Halo! Saya asisten portofolio Tanto. Silakan tanya soal pengalaman, project, skill, atau layanan web-nya."
+				]
+			},
+			"quick": [
+				"services",
+				"projects",
+				"experience",
+				"hire"
+			]
+		},
+		{
+			"id": "thanks",
+			"minor": true,
+			"label": {
+				"en": "Thanks",
+				"id": "Terima kasih"
+			},
+			"patterns": [
+				"thanks"
+			],
+			"answer": {
+				"en": [
+					"You're welcome! Anything else you'd like to know?",
+					"Happy to help. Anything else?"
+				],
+				"id": [
+					"Sama-sama! Ada lagi yang ingin ditanyakan?",
+					"Senang bisa membantu. Ada yang lain?"
+				]
+			},
+			"quick": [
+				"services",
+				"contact"
+			]
+		},
+		{
+			"id": "bye",
+			"label": {
+				"en": "Bye",
+				"id": "Dadah"
+			},
+			"patterns": [
+				"bye"
+			],
+			"answer": {
+				"en": [
+					"Thanks for stopping by! If you'd like to work together, Tanto is one email away: {email}"
+				],
+				"id": [
+					"Terima kasih sudah mampir! Kalau ingin kerja sama, Tanto bisa langsung dihubungi di {email}"
+				]
+			},
+			"actions": [
+				"email"
+			]
+		},
+		{
+			"id": "bot",
+			"label": {
+				"en": "Who are you?",
+				"id": "Kamu siapa?"
+			},
+			"patterns": [
+				"bot",
+				"are you a bot",
+				"is this ai",
+				"are you human"
+			],
+			"answer": {
+				"en": [
+					"I'm a simple automated assistant that runs entirely in your browser. I answer from the content on this site and don't send your messages anywhere. For anything I can't answer, you can email Tanto directly."
+				],
+				"id": [
+					"Saya asisten otomatis sederhana yang berjalan langsung di browser Anda. Jawaban saya diambil dari isi website ini, dan pesan Anda tidak dikirim ke mana pun. Untuk hal yang tidak bisa saya jawab, silakan email Tanto langsung."
+				]
+			},
+			"quick": [
+				"about",
+				"services"
+			]
+		},
+		{
+			"id": "about",
+			"label": {
+				"en": "Who is Tanto?",
+				"id": "Siapa Tanto?"
+			},
+			"patterns": [
+				"profile",
+				"bio",
+				"introduce",
+				"introduction",
+				"yourself",
+				"himself",
+				"background",
+				"perkenalan",
+				"profil",
+				"who is he"
+			],
+			"answer": {
+				"en": [
+					"Tanto Wibowo (Ir., S.Kom., M.Kom., IPP.) is a full-stack software engineer and UI/UX designer based in Makassar, Indonesia. Since 2019 he has shipped enterprise web platforms for clients in Singapore, France and Hong Kong — Grails back ends, Next.js front ends and CMS interfaces he designs himself. He holds a master's in Computer Science (machine learning) and is a certified professional engineer."
+				],
+				"id": [
+					"Tanto Wibowo (Ir., S.Kom., M.Kom., IPP.) adalah full-stack software engineer sekaligus UI/UX designer yang berbasis di Makassar, Indonesia. Sejak 2019 ia membangun platform web enterprise untuk klien di Singapura, Prancis, dan Hong Kong — mulai dari back end Grails, front end Next.js, sampai antarmuka CMS yang ia desain sendiri. Ia bergelar magister Ilmu Komputer (machine learning) dan insinyur profesional bersertifikat."
+				]
+			},
+			"actions": [
+				"section:about"
+			],
+			"quick": [
+				"experience",
+				"skills",
+				"services"
+			]
+		},
+		{
+			"id": "experience",
+			"label": {
+				"en": "Experience",
+				"id": "Pengalaman"
+			},
+			"patterns": [
+				"experience",
+				"work experience",
+				"fairtech",
+				"cto",
+				"companies",
+				"perusahaan",
+				"kerja dimana",
+				"years of experience",
+				"how many years"
+			],
+			"actions": [
+				"section:experience"
+			],
+			"quick": [
+				"projects",
+				"education",
+				"skills"
+			]
+		},
+		{
+			"id": "education",
+			"label": {
+				"en": "Education",
+				"id": "Pendidikan"
+			},
+			"patterns": [
+				"education",
+				"graduate",
+				"lulusan",
+				"s1",
+				"s2",
+				"m kom",
+				"s kom",
+				"engineer degree",
+				"insinyur",
+				"ir"
+			],
+			"actions": [
+				"section:experience"
+			],
+			"quick": [
+				"certificates",
+				"experience"
+			]
+		},
+		{
+			"id": "awards",
+			"label": {
+				"en": "Awards",
+				"id": "Penghargaan"
+			},
+			"patterns": [
+				"award",
+				"logo competition"
+			],
+			"actions": [
+				"section:experience"
+			],
+			"quick": [
+				"certificates",
+				"experience"
+			]
+		},
+		{
+			"id": "skills",
+			"label": {
+				"en": "Skills",
+				"id": "Keahlian"
+			},
+			"patterns": [
+				"skill",
+				"what tech",
+				"what technologies",
+				"programming languages",
+				"main stack"
+			],
+			"actions": [
+				"section:skills"
+			],
+			"quick": [
+				"projects",
+				"services"
+			]
+		},
+		{
+			"id": "skill_check",
+			"label": {
+				"en": "Skill check",
+				"id": "Cek skill"
+			},
+			"patterns": [
+				"do you know",
+				"familiar",
+				"familiar with",
+				"proficient",
+				"menguasai",
+				"paham",
+				"pakai",
+				"pernah pakai",
+				"use",
+				"using",
+				"uses"
+			],
+			"actions": [
+				"section:skills"
+			]
+		},
+		{
+			"id": "projects",
+			"label": {
+				"en": "Projects",
+				"id": "Project"
+			},
+			"patterns": [
+				"project",
+				"your work",
+				"previous work",
+				"past work",
+				"contoh project"
+			],
+			"actions": [
+				"section:projects",
+				"section:work"
+			],
+			"quick": [
+				"services",
+				"hire"
+			]
+		},
+		{
+			"id": "project_detail",
+			"label": {
+				"en": "Project details",
+				"id": "Detail project"
+			},
+			"patterns": [
+				"detail project",
+				"tell me about the project",
+				"more about project"
+			]
+		},
+		{
+			"id": "nda",
+			"label": {
+				"en": "Clients & NDA",
+				"id": "Klien & NDA"
+			},
+			"patterns": [
+				"nda",
+				"client",
+				"who are your clients",
+				"client name",
+				"which client",
+				"siapa klien"
+			],
+			"answer": {
+				"en": [
+					"Tanto's enterprise work (through Fairtech Pte. Ltd.) is for global brands in Singapore, France and Hong Kong — a restaurant & hotel review platform, a camera brand's corporate site, a national digital health platform and more. Client names are kept confidential under NDA, so I can share the kind of work and the stack, but not the brands."
+				],
+				"id": [
+					"Pekerjaan enterprise Tanto (melalui Fairtech Pte. Ltd.) untuk brand global di Singapura, Prancis, dan Hong Kong — platform review restoran & hotel, website korporat brand kamera, platform kesehatan digital nasional, dan lainnya. Nama klien dirahasiakan karena NDA, jadi saya bisa menjelaskan jenis pekerjaan dan stack-nya, tapi tidak nama brand-nya."
+				]
+			},
+			"actions": [
+				"section:work"
+			],
+			"quick": [
+				"projects",
+				"experience"
+			]
+		},
+		{
+			"id": "services",
+			"label": {
+				"en": "Services",
+				"id": "Layanan"
+			},
+			"patterns": [
+				"service",
+				"build website",
+				"build",
+				"website",
+				"can you build",
+				"help me build",
+				"bisa bikin",
+				"jasa website",
+				"jasa pembuatan website"
+			],
+			"quick": [
+				"pricing",
+				"process",
+				"hire"
+			]
+		},
+		{
+			"id": "service_detail",
+			"label": {
+				"en": "Service details",
+				"id": "Detail layanan"
+			},
+			"patterns": [
+				"landing",
+				"webapp",
+				"cms",
+				"design",
+				"logo",
+				"maintenance",
+				"migration",
+				"frontend",
+				"backend"
+			],
+			"quick": [
+				"pricing",
+				"hire"
+			]
+		},
+		{
+			"id": "pricing",
+			"label": {
+				"en": "Pricing",
+				"id": "Harga"
+			},
+			"patterns": [
+				"price",
+				"berapa",
+				"how much does it cost",
+				"estimate",
+				"estimasi biaya",
+				"penawaran"
+			],
+			"answer": {
+				"en": [
+					"Every project is quoted individually — the price depends on scope, number of pages or features, integrations and timeline, so there isn't a one-size-fits-all rate. Share a few details and Tanto will reply with an estimate, usually within a day."
+				],
+				"id": [
+					"Setiap project dihitung terpisah — harga tergantung cakupan, jumlah halaman atau fitur, integrasi, dan timeline, jadi tidak ada tarif yang sama untuk semua. Ceritakan sedikit kebutuhan Anda dan Tanto akan membalas dengan estimasi, biasanya dalam satu hari."
+				]
+			},
+			"actions": [
+				"hire",
+				"email"
+			],
+			"quick": [
+				"process",
+				"timeline",
+				"services"
+			]
+		},
+		{
+			"id": "timeline",
+			"label": {
+				"en": "Timeline",
+				"id": "Estimasi waktu"
+			},
+			"patterns": [
+				"time",
+				"how fast",
+				"seberapa cepat",
+				"selesai",
+				"finished",
+				"done"
+			],
+			"answer": {
+				"en": [
+					"Timelines depend on scope — a focused landing page is much quicker than a full web app with an admin panel. You'll get a timeline together with the quote, broken down into design, build and review stages."
+				],
+				"id": [
+					"Waktu pengerjaan tergantung cakupan — landing page sederhana jauh lebih cepat dibanding web app lengkap dengan panel admin. Timeline akan diberikan bersama penawaran, dibagi per tahap desain, pengembangan, dan review."
+				]
+			},
+			"actions": [
+				"hire"
+			],
+			"quick": [
+				"process",
+				"pricing"
+			]
+		},
+		{
+			"id": "process",
+			"label": {
+				"en": "Work process",
+				"id": "Proses kerja"
+			},
+			"patterns": [
+				"process",
+				"revision",
+				"revisions",
+				"revisi",
+				"bagaimana prosesnya"
+			],
+			"answer": {
+				"en": [
+					"A typical project goes like this:\n• Discovery — a short chat about your goals, users and must-have features\n• Proposal — scope, timeline and quote\n• Design — wireframes and UI in Figma, with your feedback\n• Build — development with regular previews on a staging link\n• Review & launch — revisions, testing on real devices, then go-live\n• Support — handover, documentation and optional maintenance"
+				],
+				"id": [
+					"Alur project biasanya seperti ini:\n• Diskusi — ngobrol singkat soal tujuan, pengguna, dan fitur wajib\n• Proposal — cakupan, timeline, dan penawaran harga\n• Desain — wireframe dan UI di Figma, dengan masukan dari Anda\n• Pengembangan — coding dengan preview rutin di link staging\n• Review & rilis — revisi, tes di perangkat nyata, lalu go-live\n• Dukungan — serah terima, dokumentasi, dan maintenance opsional"
+				]
+			},
+			"quick": [
+				"pricing",
+				"hire"
+			]
+		},
+		{
+			"id": "availability",
+			"label": {
+				"en": "Availability",
+				"id": "Ketersediaan"
+			},
+			"patterns": [
+				"available",
+				"open",
+				"freelance",
+				"freelancer",
+				"accepting",
+				"taking",
+				"menerima",
+				"bisa remote"
+			],
+			"answer": {
+				"en": [
+					"Yes — Tanto is open to remote engineering roles and freelance projects. He already works remotely with teams in Singapore and France, so different time zones aren't a problem."
+				],
+				"id": [
+					"Ya — Tanto terbuka untuk posisi remote dan project freelance. Ia sudah terbiasa bekerja remote dengan tim di Singapura dan Prancis, jadi perbedaan zona waktu bukan masalah."
+				]
+			},
+			"actions": [
+				"hire",
+				"email"
+			],
+			"quick": [
+				"services",
+				"process"
+			]
+		},
+		{
+			"id": "location",
+			"label": {
+				"en": "Location",
+				"id": "Lokasi"
+			},
+			"patterns": [
+				"location",
+				"where are you",
+				"where is he",
+				"asal",
+				"from where"
+			],
+			"answer": {
+				"en": [
+					"Tanto is based in {location} ({timezone}) and works remotely with teams worldwide."
+				],
+				"id": [
+					"Tanto berbasis di {location} ({timezone}) dan bekerja remote dengan tim dari berbagai negara."
+				]
+			},
+			"quick": [
+				"availability",
+				"contact"
+			]
+		},
+		{
+			"id": "contact",
+			"label": {
+				"en": "Contact",
+				"id": "Kontak"
+			},
+			"patterns": [
+				"contact",
+				"how to contact",
+				"cara menghubungi",
+				"email address",
+				"alamat email",
+				"phone",
+				"whatsapp",
+				"wa",
+				"nomor"
+			],
+			"answer": {
+				"en": [
+					"The best way to reach Tanto is email: {email}. He usually replies within a day."
+				],
+				"id": [
+					"Cara terbaik menghubungi Tanto adalah lewat email: {email}. Biasanya dibalas dalam satu hari."
+				]
+			},
+			"actions": [
+				"email",
+				"copy"
+			],
+			"quick": [
+				"hire"
+			]
+		},
+		{
+			"id": "hire",
+			"label": {
+				"en": "Start a project",
+				"id": "Mulai project"
+			},
+			"patterns": [
+				"hire",
+				"hire tanto",
+				"need a developer",
+				"butuh developer",
+				"interested",
+				"tertarik"
+			]
+		},
+		{
+			"id": "certificates",
+			"label": {
+				"en": "Certificates",
+				"id": "Sertifikat"
+			},
+			"patterns": [
+				"certificate"
+			],
+			"actions": [
+				"section:certificates"
+			],
+			"quick": [
+				"education",
+				"skills"
+			]
+		},
+		{
+			"id": "articles",
+			"label": {
+				"en": "Articles",
+				"id": "Artikel"
+			},
+			"patterns": [
+				"article",
+				"read",
+				"baca",
+				"latest article",
+				"artikel terbaru"
+			],
+			"actions": [
+				"section:writing"
+			],
+			"quick": [
+				"skills",
+				"projects"
+			]
+		},
+		{
+			"id": "cv",
+			"label": {
+				"en": "CV",
+				"id": "CV"
+			},
+			"patterns": [
+				"cv",
+				"download cv",
+				"unduh cv",
+				"send cv",
+				"kirim cv"
+			],
+			"answer": {
+				"en": [
+					"There's no downloadable CV on the site yet, but this page covers his full experience, education and skills. You can also email Tanto and he'll send his CV directly."
+				],
+				"id": [
+					"Belum ada CV yang bisa diunduh di website ini, tapi halaman ini sudah memuat pengalaman, pendidikan, dan skill-nya secara lengkap. Anda juga bisa email Tanto untuk meminta CV langsung."
+				]
+			},
+			"actions": [
+				"section:experience",
+				"email"
+			],
+			"quick": [
+				"experience",
+				"skills"
+			]
+		}
+	],
+	"services": [
+		{
+			"id": "landing",
+			"keywords": [
+				"landing"
+			],
+			"title": {
+				"en": "Landing pages & company profiles",
+				"id": "Landing page & company profile"
+			},
+			"desc": {
+				"en": "Fast, responsive marketing sites — product launches, company profiles, campaigns and small-business pages — designed and built end to end.",
+				"id": "Website marketing yang cepat dan responsif — peluncuran produk, company profile, kampanye, dan halaman bisnis kecil — dari desain sampai online."
+			},
+			"related": {
+				"category": "site"
+			}
+		},
+		{
+			"id": "webapp",
+			"keywords": [
+				"webapp"
+			],
+			"title": {
+				"en": "Web apps & dashboards",
+				"id": "Web app & dashboard"
+			},
+			"desc": {
+				"en": "Custom web applications and admin dashboards — information systems, accounting, e-learning, GIS and data-driven tools.",
+				"id": "Aplikasi web dan dashboard admin custom — sistem informasi, akuntansi, e-learning, GIS, dan tool berbasis data."
+			},
+			"related": {
+				"category": "app"
+			}
+		},
+		{
+			"id": "cms",
+			"keywords": [
+				"cms"
+			],
+			"title": {
+				"en": "CMS & enterprise websites",
+				"id": "CMS & website enterprise"
+			},
+			"desc": {
+				"en": "Content-managed corporate sites and CMS features on Grails, Adobe AEM or Sitecore — editor tools, components and integrations.",
+				"id": "Website korporat berbasis CMS dan fitur CMS di Grails, Adobe AEM, atau Sitecore — tool editor, komponen, dan integrasi."
+			},
+			"related": {
+				"tags": [
+					"CMS",
+					"Adobe AEM",
+					"Sitecore"
+				]
+			}
+		},
+		{
+			"id": "migration",
+			"keywords": [
+				"migration",
+				"frontend"
+			],
+			"title": {
+				"en": "Front-end modernisation",
+				"id": "Modernisasi front end"
+			},
+			"desc": {
+				"en": "Migrating legacy sites to Next.js, React and Tailwind CSS, or upgrading frameworks (e.g. Bootstrap 3 → 5) without breaking what works.",
+				"id": "Migrasi website lama ke Next.js, React, dan Tailwind CSS, atau upgrade framework (mis. Bootstrap 3 → 5) tanpa merusak yang sudah berjalan."
+			},
+			"related": {
+				"tags": [
+					"Next.js",
+					"Bootstrap 5"
+				]
+			}
+		},
+		{
+			"id": "design",
+			"keywords": [
+				"design"
+			],
+			"title": {
+				"en": "UI/UX design",
+				"id": "Desain UI/UX"
+			},
+			"desc": {
+				"en": "Wireframes, prototypes and polished UI in Figma, plus design systems that developers can actually build.",
+				"id": "Wireframe, prototype, dan UI rapi di Figma, plus design system yang benar-benar bisa dibangun developer."
+			},
+			"related": {
+				"roleIncludes": "UI"
+			}
+		},
+		{
+			"id": "branding",
+			"keywords": [
+				"logo"
+			],
+			"title": {
+				"en": "Logo & branding",
+				"id": "Logo & branding"
+			},
+			"desc": {
+				"en": "Logo and visual identity design — Tanto has done graphic and logo work since 2015 and won a regional logo design competition in 2025.",
+				"id": "Desain logo dan identitas visual — Tanto mengerjakan desain grafis dan logo sejak 2015 dan memenangkan lomba desain logo daerah di 2025."
+			},
+			"related": {}
+		},
+		{
+			"id": "maintenance",
+			"keywords": [
+				"maintenance"
+			],
+			"title": {
+				"en": "Maintenance & improvements",
+				"id": "Maintenance & pengembangan lanjutan"
+			},
+			"desc": {
+				"en": "Bug fixing, performance tuning and new features for existing sites and apps — including back ends on Grails, PHP or Java.",
+				"id": "Perbaikan bug, optimasi performa, dan fitur baru untuk website atau aplikasi yang sudah ada — termasuk back end Grails, PHP, atau Java."
+			},
+			"related": {}
+		}
+	],
+	"hireFlow": {
+		"intro": {
+			"en": "Great — let's put together a quick brief for Tanto. It takes about 30 seconds. (Type \"cancel\" any time to stop.)",
+			"id": "Siap — kita buat ringkasan kebutuhan singkat untuk Tanto, sekitar 30 detik. (Ketik \"batal\" kapan saja untuk berhenti.)"
+		},
+		"steps": [
+			{
+				"key": "type",
+				"ask": {
+					"en": "What kind of project is it?",
+					"id": "Project-nya jenis apa?"
+				},
+				"options": "services",
+				"extra": [
+					{
+						"en": "Something else",
+						"id": "Lainnya"
+					}
+				]
+			},
+			{
+				"key": "details",
+				"ask": {
+					"en": "In a sentence or two, what do you need? (or tap Skip)",
+					"id": "Dalam satu-dua kalimat, apa yang Anda butuhkan? (atau pilih Lewati)"
+				},
+				"options": [],
+				"skippable": true
+			},
+			{
+				"key": "timeline",
+				"ask": {
+					"en": "When would you like it ready?",
+					"id": "Kapan targetnya selesai?"
+				},
+				"options": [
+					{
+						"en": "Within a month",
+						"id": "Dalam 1 bulan"
+					},
+					{
+						"en": "1–3 months",
+						"id": "1–3 bulan"
+					},
+					{
+						"en": "Flexible",
+						"id": "Fleksibel"
+					}
+				]
+			},
+			{
+				"key": "budget",
+				"ask": {
+					"en": "Do you have a budget range in mind?",
+					"id": "Ada kisaran budget?"
+				},
+				"options": [
+					{
+						"en": "Not sure yet",
+						"id": "Belum tahu"
+					}
+				],
+				"skippable": true
+			},
+			{
+				"key": "name",
+				"ask": {
+					"en": "Last one — what's your name? (or tap Skip)",
+					"id": "Terakhir — boleh tahu nama Anda? (atau pilih Lewati)"
+				},
+				"options": [],
+				"skippable": true
+			}
+		],
+		"done": {
+			"en": "Here's your brief. Tap \"Send via email\" to open it in your email app — nothing is sent until you press send there.",
+			"id": "Ini ringkasannya. Pilih \"Kirim via email\" untuk membukanya di aplikasi email Anda — tidak ada yang terkirim sebelum Anda menekan kirim di sana."
+		},
+		"cancelled": {
+			"en": "No problem, I've stopped. What else would you like to know?",
+			"id": "Oke, saya hentikan. Ada hal lain yang ingin ditanyakan?"
+		},
+		"labels": {
+			"type": {
+				"en": "Project type",
+				"id": "Jenis project"
+			},
+			"details": {
+				"en": "Details",
+				"id": "Detail"
+			},
+			"timeline": {
+				"en": "Timeline",
+				"id": "Timeline"
+			},
+			"budget": {
+				"en": "Budget",
+				"id": "Budget"
+			},
+			"name": {
+				"en": "Name",
+				"id": "Nama"
+			}
+		},
+		"emailSubject": {
+			"en": "Project inquiry: {type}",
+			"id": "Pertanyaan project: {type}"
+		},
+		"emailIntro": {
+			"en": "Hi Tanto,\n\nI found your portfolio and would like to discuss a project.",
+			"id": "Halo Tanto,\n\nSaya melihat portofolio Anda dan ingin mendiskusikan sebuah project."
+		},
+		"emailOutro": {
+			"en": "(Sent via the assistant on tantowi-17.github.io)",
+			"id": "(Dikirim lewat asisten di tantowi-17.github.io)"
+		}
+	},
+	"strings": {
+		"welcome": {
+			"en": "Hi! I'm Tanto's assistant. I can tell you about his experience, projects, skills and web services — or help you start a project. What would you like to know?",
+			"id": "Halo! Saya asisten Tanto. Saya bisa menjelaskan pengalaman, project, skill, dan layanan web-nya — atau membantu Anda memulai project. Mau tanya apa?"
+		},
+		"fallback": {
+			"en": "I'm not sure about that one — I only know what's on this site. You can ask Tanto directly by email, or try one of these:",
+			"id": "Maaf, untuk itu saya belum tahu — saya hanya tahu isi website ini. Silakan tanya Tanto langsung lewat email, atau coba salah satu ini:"
+		},
+		"clarify": {
+			"en": "Did you mean:",
+			"id": "Maksud Anda:"
+		},
+		"foundOnPage": {
+			"en": "Here's what I found on the site:",
+			"id": "Ini yang saya temukan di website:"
+		},
+		"hiPrefix": {
+			"en": "Hi! ",
+			"id": "Halo! "
+		},
+		"experienceIntro": {
+			"en": "Here's Tanto's work experience:",
+			"id": "Ini pengalaman kerja Tanto:"
+		},
+		"educationIntro": {
+			"en": "Education:",
+			"id": "Pendidikan:"
+		},
+		"awardsIntro": {
+			"en": "Recognition:",
+			"id": "Penghargaan:"
+		},
+		"skillsIntro": {
+			"en": "Tanto's toolbox, by area:",
+			"id": "Keahlian Tanto per bidang:"
+		},
+		"skillYes": {
+			"en": "Yes — {skill} is part of Tanto's toolbox ({group}).",
+			"id": "Ya — {skill} termasuk keahlian Tanto ({group})."
+		},
+		"skillYesMany": {
+			"en": "Yes — all of these are in Tanto's toolbox: {skills}.",
+			"id": "Ya — semua ini termasuk keahlian Tanto: {skills}."
+		},
+		"skillUsedIn": {
+			"en": "Used in:",
+			"id": "Dipakai di:"
+		},
+		"skillUnknown": {
+			"en": "I couldn't find that in Tanto's listed skills. His main stack is Java/Groovy (Grails), PHP, JavaScript/TypeScript with React and Next.js, plus Figma for UI/UX. Ask him by email if you need something specific.",
+			"id": "Saya tidak menemukannya di daftar skill Tanto. Stack utamanya Java/Groovy (Grails), PHP, JavaScript/TypeScript dengan React dan Next.js, plus Figma untuk UI/UX. Silakan email Tanto untuk kebutuhan yang spesifik."
+		},
+		"projectsIntro": {
+			"en": "Tanto has {enterprise} enterprise platforms (under NDA) and {freelance} freelance projects. A few highlights:",
+			"id": "Tanto punya {enterprise} platform enterprise (di bawah NDA) dan {freelance} project freelance. Beberapa di antaranya:"
+		},
+		"projectFound": {
+			"en": "Related projects:",
+			"id": "Project terkait:"
+		},
+		"servicesIntro": {
+			"en": "Here's what Tanto can help with:",
+			"id": "Ini layanan yang bisa Tanto bantu:"
+		},
+		"serviceExamples": {
+			"en": "Examples:",
+			"id": "Contoh:"
+		},
+		"serviceCta": {
+			"en": "Want a quote? I can help you put together a quick brief.",
+			"id": "Mau penawaran? Saya bisa bantu membuat ringkasan kebutuhan singkat."
+		},
+		"pricingFor": {
+			"en": "For {service}, the main cost drivers are scope and features.",
+			"id": "Untuk {service}, faktor biaya utamanya adalah cakupan dan fitur."
+		},
+		"certificatesIntro": {
+			"en": "Tanto's certificates:",
+			"id": "Sertifikat Tanto:"
+		},
+		"articlesIntro": {
+			"en": "Latest articles on Medium:",
+			"id": "Artikel terbaru di Medium:"
+		},
+		"articlesNone": {
+			"en": "Tanto writes on Medium about web development and engineering.",
+			"id": "Tanto menulis di Medium seputar web development dan engineering."
+		},
+		"skip": {
+			"en": "Skip",
+			"id": "Lewati"
+		},
+		"cancel": {
+			"en": "Cancel",
+			"id": "Batal"
+		},
+		"actionEmail": {
+			"en": "Email Tanto",
+			"id": "Email Tanto"
+		},
+		"actionSendBrief": {
+			"en": "Send via email",
+			"id": "Kirim via email"
+		},
+		"actionCopy": {
+			"en": "Copy email",
+			"id": "Salin email"
+		},
+		"actionHire": {
+			"en": "Start a brief",
+			"id": "Buat ringkasan"
+		},
+		"actionView": {
+			"en": "View",
+			"id": "Lihat"
+		},
+		"actionSection": {
+			"about": {
+				"en": "Go to About",
+				"id": "Lihat About"
+			},
+			"work": {
+				"en": "See enterprise work",
+				"id": "Lihat enterprise work"
+			},
+			"projects": {
+				"en": "See projects",
+				"id": "Lihat project"
+			},
+			"experience": {
+				"en": "See experience",
+				"id": "Lihat pengalaman"
+			},
+			"skills": {
+				"en": "See skills",
+				"id": "Lihat skill"
+			},
+			"certificates": {
+				"en": "See certificates",
+				"id": "Lihat sertifikat"
+			},
+			"writing": {
+				"en": "See articles",
+				"id": "Lihat artikel"
+			},
+			"contact": {
+				"en": "Go to Contact",
+				"id": "Lihat Contact"
+			}
+		}
+	}
+}

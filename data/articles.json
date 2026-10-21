@@ -1,0 +1,69 @@
+{
+  "source": "https://medium.com/feed/@tantowi17",
+  "items": [
+    {
+      "title": "Analisis Sentimen Pasar Kripto Menggunakan Live Chat Exchange dan JavaScript",
+      "link": "https://medium.com/@tantowi17/analisis-sentimen-pasar-kripto-menggunakan-live-chat-exchange-dan-javascript-07ee4850eaa4",
+      "date": "2025-12-30",
+      "thumbnail": "https://cdn-images-1.medium.com/max/698/1*2qGut0yb7gz7hjoQVsRznw.png",
+      "excerpt": "Pengantar: Di Mana Emosi Bertemu Harga Pasar cryptocurrency tak ubahnya lautan yang penuh gelombang; kadang tenang, seringkali bergejolak. Di balik setiap…",
+      "tags": [
+        "javascript",
+        "web-scraping",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "title": "The Silent Trap of TikTok Embeds: Exposing Shadow Tracking and the Compliance Nightmare (GDPR/CCPA)",
+      "link": "https://medium.com/@tantowi17/the-silent-trap-of-tiktok-embeds-exposing-shadow-tracking-and-the-compliance-nightmare-gdpr-ccpa-1c0df5c4efa4",
+      "date": "2025-10-03",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*iwXbKALiNMjt9eH7yxMNLA.png",
+      "excerpt": "Introduction: Instant Convenience, Hidden Consequences As developers, we strive for efficiency. Integrating popular content, such as TikTok videos, via embeds…",
+      "tags": []
+    },
+    {
+      "title": "Implementing Session Timeout Management with JavaScript, jQuery, and Bootstrap",
+      "link": "https://medium.com/@tantowi17/implementing-session-timeout-management-with-javascript-jquery-and-bootstrap-9ae349118064",
+      "date": "2025-09-30",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*th1EtvCcs8LDtYFP7okkVQ.png",
+      "excerpt": "Managing user sessions is a critical part of building secure web applications. A session timeout mechanism ensures that inactive users are automatically logged…",
+      "tags": []
+    },
+    {
+      "title": "How to Implement Recent Search with localStorage in a Website",
+      "link": "https://medium.com/@tantowi17/how-to-implement-recent-search-with-localstorage-in-a-website-8efdd861d5b4",
+      "date": "2025-09-24",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*saL5-LMIVY8Tw22-0PFJtA.png",
+      "excerpt": "The recent search feature is one of the most useful components in a website or app’s user experience (UX). With this feature, users can quickly access their…",
+      "tags": []
+    },
+    {
+      "title": "Open-Heart Surgery of a Sleeping Digital Giant",
+      "link": "https://medium.com/@tantowi17/open-heart-surgery-of-a-sleeping-digital-giant-4698946e592f",
+      "date": "2025-09-07",
+      "thumbnail": "https://cdn-images-1.medium.com/max/865/1*l8JpbxhSmjFlwJfmfbhw1Q.png",
+      "excerpt": "“This story is about my journey of digital archaeology, digging into outdated code and frameworks to revive a legacy system. It explores how I balanced…",
+      "tags": []
+    },
+    {
+      "title": "Cloud Image Responsive — when Image size spiked in owl carousel version 2",
+      "link": "https://medium.com/@tantowi17/cloud-image-responsive-when-image-size-spiked-in-owl-carousel-version-2-ee6caaf1bb6d",
+      "date": "2022-12-04",
+      "thumbnail": "https://cdn-images-1.medium.com/max/1024/1*rx6nhjT8BuSI3dEbIw0JjQ.png",
+      "excerpt": "I have implemented the image optimization feature using the Cloud Image Responsive plugin on the website, in the middle of implementation I encountered a…",
+      "tags": []
+    },
+    {
+      "title": "Could not create connection to database server. Attempted reconnect 3 times.",
+      "link": "https://medium.com/@tantowi17/could-not-create-connection-to-database-server-attempted-reconnect-3-times-547399f74969",
+      "date": "2021-10-20",
+      "thumbnail": "https://cdn-images-1.medium.com/max/817/0*dpuPKzF-5XaE1kHM",
+      "excerpt": "Hi, I want to frequently about the error log of “Could not create connection to database server. Attempted connect 3 times.” on a website project that I…",
+      "tags": [
+        "groovy",
+        "java",
+        "grails"
+      ]
+    }
+  ]
+}

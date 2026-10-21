@@ -1,0 +1,12 @@
+{
+	"name": "Tanto Wibowo",
+	"short_name": "Tanto W.",
+	"icons": [
+		{ "src": "images/icon-180.png", "sizes": "180x180", "type": "image/png" },
+		{ "src": "images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+	],
+	"theme_color": "#16161A",
+	"background_color": "#FAFAF7",
+	"display": "standalone",
+	"start_url": "/"
+}
