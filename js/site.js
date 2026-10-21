@@ -438,6 +438,38 @@
 			.catch(renderFallback);
 	}
 
+	/* Chat assistant (loaded on demand) ------------------------------------ */
+	var chatFab = document.getElementById('chat-fab');
+	if (chatFab) {
+		var chatLoading = null;
+		var loadScript = function (src) {
+			return new Promise(function (resolve, reject) {
+				var s = document.createElement('script');
+				s.src = src;
+				s.onload = resolve;
+				s.onerror = reject;
+				document.body.appendChild(s);
+			});
+		};
+		var loadChat = function () {
+			if (window.PortfolioChat) return Promise.resolve();
+			if (!chatLoading) {
+				chatLoading = loadScript('js/chat-engine.js').then(function () { return loadScript('js/chat.js'); });
+				chatLoading.catch(function () { chatLoading = null; });
+			}
+			return chatLoading;
+		};
+		try { if (sessionStorage.getItem('chat:seen')) chatFab.classList.add('is-seen'); } catch (e) {}
+		// Start fetching as soon as the visitor shows intent
+		chatFab.addEventListener('pointerenter', function () { loadChat().catch(function () {}); }, { once: true });
+		chatFab.addEventListener('focus', function () { loadChat().catch(function () {}); }, { once: true });
+		chatFab.addEventListener('click', function () {
+			loadChat()
+				.then(function () { return window.PortfolioChat.toggle(); })
+				.catch(function () { window.location.href = 'mailto:tantowibowo7@gmail.com'; });
+		});
+	}
+
 	/* Footer year -------------------------------------------------------- */
 	var year = document.getElementById('year');
 	if (year) year.textContent = new Date().getFullYear();

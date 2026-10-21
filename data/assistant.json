@@ -31,7 +31,12 @@
 			"payment",
 			"how much",
 			"berapa harga",
-			"kisaran harga"
+			"kisaran harga",
+			"expensive",
+			"cheap",
+			"affordable",
+			"afford",
+			"terjangkau"
 		],
 		"time": [
 			"timeline",
@@ -124,7 +129,6 @@
 			"riwayat kerja",
 			"jobs",
 			"job",
-			"worked",
 			"employment"
 		],
 		"skill": [
@@ -212,13 +216,10 @@
 			"city",
 			"country",
 			"negara",
-			"where",
-			"dimana",
 			"timezone",
 			"time zone",
 			"zona waktu",
-			"gmt",
-			"di mana"
+			"gmt"
 		],
 		"available": [
 			"availability",
@@ -227,7 +228,6 @@
 			"open for work",
 			"free",
 			"slot",
-			"kapan",
 			"start",
 			"mulai",
 			"remote",
@@ -255,7 +255,14 @@
 			"selamat pagi",
 			"selamat siang",
 			"selamat sore",
-			"selamat malam"
+			"selamat malam",
+			"yo",
+			"sup",
+			"whats up",
+			"what s up",
+			"hiya",
+			"howdy",
+			"permisi"
 		],
 		"thanks": [
 			"thank",
@@ -288,7 +295,10 @@
 			"siapa kamu",
 			"asisten",
 			"assistant",
-			"are you real"
+			"are you real",
+			"chat",
+			"is this real",
+			"this chat"
 		],
 		"process": [
 			"workflow",
@@ -336,7 +346,6 @@
 			"lomba",
 			"juara",
 			"winner",
-			"won",
 			"recognition"
 		],
 		"design": [
@@ -418,7 +427,15 @@
 			"perawatan",
 			"support",
 			"optimization",
-			"optimisasi"
+			"optimisasi",
+			"perbaiki",
+			"benerin",
+			"error",
+			"errors",
+			"rusak",
+			"broken",
+			"lambat",
+			"slow"
 		],
 		"cancel": [
 			"stop",
@@ -439,6 +456,20 @@
 			"no thanks",
 			"tidak usah",
 			"gak usah"
+		],
+		"where": [
+			"dimana",
+			"di mana",
+			"mana"
+		],
+		"fullstack": [
+			"full stack",
+			"full-stack"
+		],
+		"longterm": [
+			"long term",
+			"long-term",
+			"jangka panjang"
 		]
 	},
 	"intents": [
@@ -556,7 +587,14 @@
 				"background",
 				"perkenalan",
 				"profil",
-				"who is he"
+				"who is he",
+				"fullstack",
+				"developer",
+				"engineer",
+				"designer",
+				"programmer",
+				"what does he do",
+				"job title"
 			],
 			"answer": {
 				"en": [
@@ -588,9 +626,16 @@
 				"cto",
 				"companies",
 				"perusahaan",
-				"kerja dimana",
 				"years of experience",
-				"how many years"
+				"how many years",
+				"pernah kerja",
+				"tempat kerja",
+				"worked",
+				"worked at",
+				"pernah bekerja",
+				"where worked",
+				"kerja di mana",
+				"where did you work"
 			],
 			"actions": [
 				"section:experience"
@@ -599,6 +644,9 @@
 				"projects",
 				"education",
 				"skills"
+			],
+			"strong": [
+				"experience"
 			]
 		},
 		{
@@ -625,6 +673,9 @@
 			"quick": [
 				"certificates",
 				"experience"
+			],
+			"strong": [
+				"education"
 			]
 		},
 		{
@@ -643,6 +694,9 @@
 			"quick": [
 				"certificates",
 				"experience"
+			],
+			"strong": [
+				"award"
 			]
 		},
 		{
@@ -683,7 +737,13 @@
 				"pernah pakai",
 				"use",
 				"using",
-				"uses"
+				"uses",
+				"used",
+				"work with",
+				"experienced in",
+				"can you code",
+				"coding in",
+				"pernah pakai"
 			],
 			"actions": [
 				"section:skills"
@@ -751,6 +811,9 @@
 			"quick": [
 				"projects",
 				"experience"
+			],
+			"strong": [
+				"nda"
 			]
 		},
 		{
@@ -828,6 +891,9 @@
 				"process",
 				"timeline",
 				"services"
+			],
+			"strong": [
+				"price"
 			]
 		},
 		{
@@ -858,6 +924,9 @@
 			"quick": [
 				"process",
 				"pricing"
+			],
+			"strong": [
+				"time"
 			]
 		},
 		{
@@ -871,7 +940,15 @@
 				"revision",
 				"revisions",
 				"revisi",
-				"bagaimana prosesnya"
+				"bagaimana prosesnya",
+				"next step",
+				"next steps",
+				"what happens next",
+				"happens after",
+				"after send",
+				"brief",
+				"onboarding",
+				"langkah selanjutnya"
 			],
 			"answer": {
 				"en": [
@@ -884,6 +961,9 @@
 			"quick": [
 				"pricing",
 				"hire"
+			],
+			"strong": [
+				"process"
 			]
 		},
 		{
@@ -917,6 +997,9 @@
 			"quick": [
 				"services",
 				"process"
+			],
+			"strong": [
+				"available"
 			]
 		},
 		{
@@ -930,7 +1013,10 @@
 				"where are you",
 				"where is he",
 				"asal",
-				"from where"
+				"from where",
+				"where",
+				"where based",
+				"where live"
 			],
 			"answer": {
 				"en": [
@@ -943,6 +1029,9 @@
 			"quick": [
 				"availability",
 				"contact"
+			],
+			"strong": [
+				"location"
 			]
 		},
 		{
@@ -976,6 +1065,9 @@
 			],
 			"quick": [
 				"hire"
+			],
+			"strong": [
+				"contact"
 			]
 		},
 		{
@@ -991,6 +1083,9 @@
 				"butuh developer",
 				"interested",
 				"tertarik"
+			],
+			"strong": [
+				"hire"
 			]
 		},
 		{
@@ -1008,6 +1103,9 @@
 			"quick": [
 				"education",
 				"skills"
+			],
+			"strong": [
+				"certificate"
 			]
 		},
 		{
@@ -1029,6 +1127,9 @@
 			"quick": [
 				"skills",
 				"projects"
+			],
+			"strong": [
+				"article"
 			]
 		},
 		{
@@ -1059,6 +1160,9 @@
 			"quick": [
 				"experience",
 				"skills"
+			],
+			"strong": [
+				"cv"
 			]
 		}
 	],
@@ -1455,5 +1559,43 @@
 				"id": "Lihat Contact"
 			}
 		}
+	},
+	"skillAliases": {
+		"Flutter": [
+			"mobile",
+			"mobile app",
+			"mobile apps",
+			"android",
+			"ios",
+			"aplikasi mobile",
+			"aplikasi android"
+		],
+		"JavaScript": [
+			"js",
+			"javascript"
+		],
+		"TypeScript": [
+			"ts"
+		],
+		"Next.js": [
+			"next js",
+			"nextjs"
+		],
+		"Node.js": [
+			"node",
+			"nodejs"
+		],
+		"Groovy / Grails": [
+			"grails",
+			"groovy"
+		],
+		"SQL Server": [
+			"mssql",
+			"sql server"
+		],
+		"Adobe AEM": [
+			"aem",
+			"adobe experience manager"
+		]
 	}
 }

@@ -1,0 +1,581 @@
+[
+	{
+		"q": "hi",
+		"intent": "greeting"
+	},
+	{
+		"q": "halo kak",
+		"intent": "greeting"
+	},
+	{
+		"q": "good morning",
+		"intent": "greeting"
+	},
+	{
+		"q": "thanks!",
+		"intent": "thanks"
+	},
+	{
+		"q": "makasih ya",
+		"intent": "thanks"
+	},
+	{
+		"q": "bye",
+		"intent": "bye"
+	},
+	{
+		"q": "are you a bot?",
+		"intent": "bot"
+	},
+	{
+		"q": "kamu siapa?",
+		"intent": "bot"
+	},
+	{
+		"q": "who is tanto?",
+		"intent": "about"
+	},
+	{
+		"q": "tell me about yourself",
+		"intent": "about"
+	},
+	{
+		"q": "siapa tanto wibowo",
+		"intent": "about"
+	},
+	{
+		"q": "can you introduce yourself",
+		"intent": "about"
+	},
+	{
+		"q": "profil singkat dong",
+		"intent": "about"
+	},
+	{
+		"q": "what is your work experience?",
+		"intent": "experience"
+	},
+	{
+		"q": "pengalaman kerjanya apa aja?",
+		"intent": "experience"
+	},
+	{
+		"q": "where have you worked",
+		"intent": "experience"
+	},
+	{
+		"q": "how many years of experience do you have",
+		"intent": "experience"
+	},
+	{
+		"q": "were you a cto?",
+		"intent": "experience"
+	},
+	{
+		"q": "what did you study",
+		"intent": "education"
+	},
+	{
+		"q": "pendidikan terakhir apa?",
+		"intent": "education"
+	},
+	{
+		"q": "do you have a master degree",
+		"intent": "education"
+	},
+	{
+		"q": "any awards?",
+		"intent": "awards"
+	},
+	{
+		"q": "pernah juara lomba?",
+		"intent": "awards"
+	},
+	{
+		"q": "what is your tech stack?",
+		"intent": "skills"
+	},
+	{
+		"q": "skills",
+		"intent": "skills"
+	},
+	{
+		"q": "keahliannya apa saja",
+		"intent": "skills"
+	},
+	{
+		"q": "what programming languages do you use",
+		"intent": "skills"
+	},
+	{
+		"q": "do you know react?",
+		"intent": "skill_check",
+		"skill": "React"
+	},
+	{
+		"q": "bisa pakai laravel?",
+		"intent": "skill_check",
+		"skill": "Laravel"
+	},
+	{
+		"q": "experience with next js?",
+		"intent": "skill_check",
+		"skill": "Next.js"
+	},
+	{
+		"q": "flutter?",
+		"intent": "skill_check",
+		"skill": "Flutter"
+	},
+	{
+		"q": "are you familiar with figma",
+		"intent": "skill_check",
+		"skill": "Figma"
+	},
+	{
+		"q": "do you use tailwind",
+		"intent": "skill_check",
+		"skill": "Tailwind CSS"
+	},
+	{
+		"q": "do you know c#",
+		"intent": "skill_check",
+		"skill": "C#"
+	},
+	{
+		"q": "do you know rust?",
+		"intent": "skill_check"
+	},
+	{
+		"q": "show me your projects",
+		"intent": "projects"
+	},
+	{
+		"q": "portfolio",
+		"intent": "projects"
+	},
+	{
+		"q": "contoh project yang pernah dibuat",
+		"intent": "projects"
+	},
+	{
+		"q": "tell me about geotanah",
+		"intent": "project_detail"
+	},
+	{
+		"q": "what is algospk",
+		"intent": "project_detail"
+	},
+	{
+		"q": "the restaurant project",
+		"intent": "project_detail"
+	},
+	{
+		"q": "kelas cpns itu apa",
+		"intent": "project_detail"
+	},
+	{
+		"q": "who are your clients?",
+		"intent": "nda"
+	},
+	{
+		"q": "which company is the camera brand",
+		"intent": "nda"
+	},
+	{
+		"q": "nama kliennya siapa",
+		"intent": "nda"
+	},
+	{
+		"q": "what services do you offer?",
+		"intent": "services"
+	},
+	{
+		"q": "jasa apa saja yang ditawarkan",
+		"intent": "services"
+	},
+	{
+		"q": "can you build a website for me",
+		"intent": "services"
+	},
+	{
+		"q": "bisa bikin website?",
+		"intent": "services"
+	},
+	{
+		"q": "do you make landing pages",
+		"intent": "service_detail",
+		"service": "landing"
+	},
+	{
+		"q": "I need a company profile website",
+		"intent": "service_detail",
+		"service": "landing"
+	},
+	{
+		"q": "bisa bikin dashboard admin?",
+		"intent": "service_detail",
+		"service": "webapp"
+	},
+	{
+		"q": "can you design my app ui/ux",
+		"intent": "service_detail",
+		"service": "design"
+	},
+	{
+		"q": "do you do logo design",
+		"intent": "service_detail",
+		"service": "branding"
+	},
+	{
+		"q": "migrate my site to next.js",
+		"intent": "service_detail",
+		"service": "migration"
+	},
+	{
+		"q": "can you fix bugs on my website",
+		"intent": "service_detail",
+		"service": "maintenance"
+	},
+	{
+		"q": "how much does a website cost?",
+		"intent": "pricing"
+	},
+	{
+		"q": "berapa harga bikin website",
+		"intent": "pricing"
+	},
+	{
+		"q": "what are your rates",
+		"intent": "pricing"
+	},
+	{
+		"q": "biayanya berapa?",
+		"intent": "pricing"
+	},
+	{
+		"q": "how much for a landing page",
+		"intent": "pricing"
+	},
+	{
+		"q": "pricce",
+		"intent": "pricing"
+	},
+	{
+		"q": "how long does it take?",
+		"intent": "timeline"
+	},
+	{
+		"q": "berapa lama pengerjaannya",
+		"intent": "timeline"
+	},
+	{
+		"q": "what's your process",
+		"intent": "process"
+	},
+	{
+		"q": "bagaimana alur kerjanya",
+		"intent": "process"
+	},
+	{
+		"q": "do you allow revisions",
+		"intent": "process"
+	},
+	{
+		"q": "are you available for freelance?",
+		"intent": "availability"
+	},
+	{
+		"q": "bisa remote?",
+		"intent": "availability"
+	},
+	{
+		"q": "are you open to work",
+		"intent": "availability"
+	},
+	{
+		"q": "where are you based?",
+		"intent": "location"
+	},
+	{
+		"q": "tinggal di mana?",
+		"intent": "location"
+	},
+	{
+		"q": "what timezone are you in",
+		"intent": "location"
+	},
+	{
+		"q": "how can I contact you",
+		"intent": "contact"
+	},
+	{
+		"q": "what's your email",
+		"intent": "contact"
+	},
+	{
+		"q": "minta kontaknya",
+		"intent": "contact"
+	},
+	{
+		"q": "I want to hire you",
+		"intent": "hire"
+	},
+	{
+		"q": "let's work together",
+		"intent": "hire"
+	},
+	{
+		"q": "mau kerja sama",
+		"intent": "hire"
+	},
+	{
+		"q": "start a project",
+		"intent": "hire"
+	},
+	{
+		"q": "do you have certificates",
+		"intent": "certificates"
+	},
+	{
+		"q": "sertifikat apa saja",
+		"intent": "certificates"
+	},
+	{
+		"q": "do you write articles",
+		"intent": "articles"
+	},
+	{
+		"q": "blog",
+		"intent": "articles"
+	},
+	{
+		"q": "can I see your cv",
+		"intent": "cv"
+	},
+	{
+		"q": "kirim cv dong",
+		"intent": "cv"
+	},
+	{
+		"q": "what's the weather today",
+		"intent": null
+	},
+	{
+		"q": "write me a python script to sort a list",
+		"intent": null,
+		"allow": [
+			"skill_check"
+		]
+	},
+	{
+		"q": "asdfgh",
+		"intent": null
+	},
+	{
+		"q": "yo what's up",
+		"intent": "greeting"
+	},
+	{
+		"q": "what kind of websites can you make",
+		"intent": "services"
+	},
+	{
+		"q": "do you work with wordpress",
+		"intent": "skill_check"
+	},
+	{
+		"q": "is it expensive to build a web app?",
+		"intent": "pricing"
+	},
+	{
+		"q": "kira2 harganya berapa ya kak",
+		"intent": "pricing"
+	},
+	{
+		"q": "what does tanto do",
+		"intent": "about"
+	},
+	{
+		"q": "can you redesign my website",
+		"intent": "service_detail",
+		"service": "design"
+	},
+	{
+		"q": "apakah bisa membuat aplikasi web untuk sekolah",
+		"intent": "service_detail",
+		"service": "webapp"
+	},
+	{
+		"q": "do you speak english",
+		"intent": null
+	},
+	{
+		"q": "how do I reach tanto",
+		"intent": "contact"
+	},
+	{
+		"q": "I'd like a quote for an e-commerce site",
+		"intent": "pricing"
+	},
+	{
+		"q": "tell me about the health platform",
+		"intent": "project_detail"
+	},
+	{
+		"q": "have you used algolia",
+		"intent": "skill_check",
+		"skill": "Algolia"
+	},
+	{
+		"q": "are you a full stack developer",
+		"intent": "about"
+	},
+	{
+		"q": "what universities did he attend",
+		"intent": "education"
+	},
+	{
+		"q": "berapa tahun pengalamannya",
+		"intent": "experience"
+	},
+	{
+		"q": "what happens after I send the brief",
+		"intent": "process"
+	},
+	{
+		"q": "can you start next week",
+		"intent": "availability"
+	},
+	{
+		"q": "do you do mobile apps",
+		"intent": "skill_check"
+	},
+	{
+		"q": "ok thanks bye",
+		"intent": "thanks",
+		"allow": [
+			"bye"
+		]
+	},
+	{
+		"q": "hey, what can tanto help me with?",
+		"intent": "services"
+	},
+	{
+		"q": "do you build online stores",
+		"intent": "services",
+		"allow": [
+			"service_detail"
+		]
+	},
+	{
+		"q": "harga landing page berapa",
+		"intent": "pricing"
+	},
+	{
+		"q": "what's the cost of a dashboard",
+		"intent": "pricing"
+	},
+	{
+		"q": "can I hire you for a long term project",
+		"intent": "hire"
+	},
+	{
+		"q": "do you know java",
+		"intent": "skill_check",
+		"skill": "Java"
+	},
+	{
+		"q": "bisa python?",
+		"intent": "skill_check",
+		"skill": "Python"
+	},
+	{
+		"q": "which projects used grails",
+		"intent": "skill_check",
+		"skill": "Groovy / Grails"
+	},
+	{
+		"q": "tell me about tekoala",
+		"intent": "project_detail"
+	},
+	{
+		"q": "what was the camera website project",
+		"intent": "project_detail"
+	},
+	{
+		"q": "where did you study",
+		"intent": "education"
+	},
+	{
+		"q": "do you have any certifications",
+		"intent": "certificates"
+	},
+	{
+		"q": "show me your latest blog posts",
+		"intent": "articles"
+	},
+	{
+		"q": "what time zone is he in",
+		"intent": "location"
+	},
+	{
+		"q": "is he available right now",
+		"intent": "availability"
+	},
+	{
+		"q": "what is the email",
+		"intent": "contact"
+	},
+	{
+		"q": "how does a project with you work",
+		"intent": "process",
+		"allow": [
+			"projects"
+		],
+		"note": "known limitation: \"project\" + \"work\" reads as the projects list"
+	},
+	{
+		"q": "bisa bantu perbaiki website saya yang error",
+		"intent": "service_detail",
+		"service": "maintenance"
+	},
+	{
+		"q": "tolong buatkan logo untuk usaha saya",
+		"intent": "service_detail",
+		"service": "branding"
+	},
+	{
+		"q": "who won the world cup",
+		"intent": null
+	},
+	{
+		"q": "what's 2+2",
+		"intent": null
+	},
+	{
+		"q": "apa itu ui ux",
+		"intent": "service_detail",
+		"service": "design"
+	},
+	{
+		"q": "is this chat real",
+		"intent": "bot"
+	},
+	{
+		"q": "do you do seo",
+		"intent": "skill_check",
+		"allow": [
+			"services",
+			null
+		]
+	},
+	{
+		"q": "can you work in my timezone",
+		"intent": "location",
+		"allow": [
+			"availability"
+		]
+	}
+]
