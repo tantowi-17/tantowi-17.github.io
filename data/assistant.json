@@ -3,7 +3,8 @@
 		"name": "Tanto Wibowo",
 		"email": "tantowibowo7@gmail.com",
 		"location": "Makassar, Indonesia",
-		"timezone": "GMT+8 (WITA)"
+		"timezone": "GMT+8 (WITA)",
+		"whatsapp": "6285342765909"
 	},
 	"synonyms": {
 		"price": [
@@ -118,7 +119,18 @@
 			"menghubungi",
 			"get in touch",
 			"message",
-			"dm"
+			"dm",
+			"whatsapp",
+			"wa",
+			"phone",
+			"telepon",
+			"telpon",
+			"nomor",
+			"nomor hp",
+			"hp",
+			"call",
+			"text me",
+			"chat me"
 		],
 		"experience": [
 			"pengalaman",
@@ -536,13 +548,14 @@
 			],
 			"answer": {
 				"en": [
-					"Thanks for stopping by! If you'd like to work together, Tanto is one email away: {email}"
+					"Thanks for stopping by! If you'd like to work together, Tanto is one message away on WhatsApp or at {email}."
 				],
 				"id": [
-					"Terima kasih sudah mampir! Kalau ingin kerja sama, Tanto bisa langsung dihubungi di {email}"
+					"Terima kasih sudah mampir! Kalau ingin kerja sama, Tanto bisa langsung dihubungi lewat WhatsApp atau {email}."
 				]
 			},
 			"actions": [
+				"whatsapp",
 				"email"
 			]
 		},
@@ -885,6 +898,7 @@
 			},
 			"actions": [
 				"hire",
+				"whatsapp",
 				"email"
 			],
 			"quick": [
@@ -992,6 +1006,7 @@
 			},
 			"actions": [
 				"hire",
+				"whatsapp",
 				"email"
 			],
 			"quick": [
@@ -1053,13 +1068,14 @@
 			],
 			"answer": {
 				"en": [
-					"The best way to reach Tanto is email: {email}. He usually replies within a day."
+					"The quickest way to reach Tanto is WhatsApp (+62 853-4276-5909), or email {email}. He usually replies within a day."
 				],
 				"id": [
-					"Cara terbaik menghubungi Tanto adalah lewat email: {email}. Biasanya dibalas dalam satu hari."
+					"Cara tercepat menghubungi Tanto lewat WhatsApp (+62 853-4276-5909) atau email {email}. Biasanya dibalas dalam satu hari."
 				]
 			},
 			"actions": [
+				"whatsapp",
 				"email",
 				"copy"
 			],
@@ -1155,6 +1171,7 @@
 			},
 			"actions": [
 				"section:experience",
+				"whatsapp",
 				"email"
 			],
 			"quick": [
@@ -1366,8 +1383,8 @@
 			}
 		],
 		"done": {
-			"en": "Here's your brief. Tap \"Send via email\" to open it in your email app — nothing is sent until you press send there.",
-			"id": "Ini ringkasannya. Pilih \"Kirim via email\" untuk membukanya di aplikasi email Anda — tidak ada yang terkirim sebelum Anda menekan kirim di sana."
+			"en": "Here's your brief. Tap \"Send via WhatsApp\" to open it in WhatsApp (or use email) — nothing is sent until you press send there.",
+			"id": "Ini ringkasannya. Pilih \"Kirim via WhatsApp\" untuk membukanya di WhatsApp (atau pakai email) — tidak ada yang terkirim sebelum Anda menekan kirim di sana."
 		},
 		"cancelled": {
 			"en": "No problem, I've stopped. What else would you like to know?",
@@ -1414,8 +1431,8 @@
 			"id": "Halo! Saya asisten Tanto. Saya bisa menjelaskan pengalaman, project, skill, dan layanan web-nya — atau membantu Anda memulai project. Mau tanya apa?"
 		},
 		"fallback": {
-			"en": "I'm not sure about that one — I only know what's on this site. You can ask Tanto directly by email, or try one of these:",
-			"id": "Maaf, untuk itu saya belum tahu — saya hanya tahu isi website ini. Silakan tanya Tanto langsung lewat email, atau coba salah satu ini:"
+			"en": "I'm not sure about that one — I only know what's on this site. You can ask Tanto directly on WhatsApp or by email, or try one of these:",
+			"id": "Maaf, untuk itu saya belum tahu — saya hanya tahu isi website ini. Silakan tanya Tanto langsung lewat WhatsApp atau email, atau coba salah satu ini:"
 		},
 		"clarify": {
 			"en": "Did you mean:",
@@ -1558,6 +1575,18 @@
 				"en": "Go to Contact",
 				"id": "Lihat Contact"
 			}
+		},
+		"actionWhatsApp": {
+			"en": "WhatsApp Tanto",
+			"id": "WhatsApp Tanto"
+		},
+		"actionSendBriefWa": {
+			"en": "Send via WhatsApp",
+			"id": "Kirim via WhatsApp"
+		},
+		"waGreeting": {
+			"en": "Hi Tanto, I found your portfolio and I'd like to ask about a project.",
+			"id": "Halo Tanto, saya lihat portofolio Anda dan ingin bertanya soal project."
 		}
 	},
 	"skillAliases": {

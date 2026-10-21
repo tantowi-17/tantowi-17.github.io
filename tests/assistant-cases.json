@@ -577,5 +577,17 @@
 		"allow": [
 			"availability"
 		]
+	},
+	{
+		"q": "what's your whatsapp number",
+		"intent": "contact"
+	},
+	{
+		"q": "nomor wa nya berapa",
+		"intent": "contact"
+	},
+	{
+		"q": "can I call you",
+		"intent": "contact"
 	}
 ]

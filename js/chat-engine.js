@@ -396,11 +396,15 @@
 			return (list || []).map(function (a) {
 				if (a.indexOf('section:') === 0) return sectionAction(a.slice(8), lang);
 				if (a === 'email') return { type: 'email', label: str('actionEmail', lang), href: 'mailto:' + profile.email };
+				if (a === 'whatsapp' && profile.whatsapp) return { type: 'link', label: str('actionWhatsApp', lang), href: waLink(str('waGreeting', lang)) };
 				if (a === 'copy') return { type: 'copy', label: str('actionCopy', lang), value: profile.email };
 				if (a === 'hire') return { type: 'intent', label: str('actionHire', lang), intent: 'hire' };
 				return null;
 			}).filter(Boolean);
 		}
+
+		// WhatsApp click-to-chat: opens a chat with the message pre-filled; the visitor presses send
+		function waLink(text) { return 'https://wa.me/' + profile.whatsapp + '?text=' + encodeURIComponent(text); }
 
 		function bullet(lines) { return lines.map(function (l) { return '• ' + l; }).join('\n'); }
 
@@ -545,9 +549,9 @@
 			return {
 				text: (flow.done[lang] || flow.done.en) + '\n\n' + lines.join('\n'),
 				actions: [
-					{ type: 'email', label: str('actionSendBrief', lang), href: 'mailto:' + profile.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body), primary: true },
-					{ type: 'copy', label: str('actionCopy', lang), value: profile.email }
-				]
+					profile.whatsapp ? { type: 'link', label: str('actionSendBriefWa', lang), href: waLink(body), primary: true } : null,
+					{ type: 'email', label: str('actionSendBrief', lang), href: 'mailto:' + profile.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body), primary: !profile.whatsapp }
+				].filter(Boolean)
 			};
 		}
 
@@ -629,7 +633,7 @@
 				}
 				return finish({
 					text: str('fallback', lang),
-					actions: actionsFor(['email'], lang),
+					actions: actionsFor(['whatsapp', 'email'], lang),
 					quick: quick(['services', 'projects', 'experience', 'contact'], lang)
 				}, state, 'fallback', c);
 			}

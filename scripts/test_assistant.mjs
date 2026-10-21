@@ -110,7 +110,9 @@ for (const answer of ['Web apps & dashboards', 'An inventory dashboard for my sh
 	reply = engine.reply(answer, { state: reply.state, value: answer });
 }
 const mail = (reply.actions || []).find((a) => a.type === 'email');
-const flowOk = reply.intent === 'hire_done' && mail && mail.href.startsWith('mailto:tantowibowo7@gmail.com?subject=');
+const wa = (reply.actions || []).find((a) => a.type === 'link' && a.href.startsWith('https://wa.me/6285342765909?text='));
+const flowOk = reply.intent === 'hire_done' && wa && wa.primary && decodeURIComponent(wa.href).includes('An inventory dashboard for my shop') &&
+	mail && mail.href.startsWith('mailto:tantowibowo7@gmail.com?subject=');
 console.log(`\nHire flow: ${flowOk ? 'ok' : 'FAILED'}`);
 
 const pct = ((pass / cases.length) * 100).toFixed(1);
