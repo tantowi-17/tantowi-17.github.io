@@ -689,6 +689,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 	grid-auto-flow: column;
 	grid-auto-columns: calc((100% - (var(--per-row) - 1) * var(--col-gap, 20px)) / var(--per-row));
 	overflow-x: auto;
+	/* overflow-x: auto silently makes overflow-y auto too; with content a few px
+	   taller than the box, the row becomes vertically scrollable and swallows
+	   wheel/trackpad scrolling of the page. Lock the vertical axis. */
+	overflow-y: hidden;
 	overscroll-behavior-x: contain;
 	scroll-snap-type: x mandatory;
 	scroll-padding-inline: 4px;
